@@ -13,10 +13,10 @@ const Navbar = () => {
           <a
             className="nav-link"
           >
-          <a className="nav-link" dangerouslySetInnerHTML={{ __html: "&lt;JohnJames/&gt;" }}></a>
+          <a className="nav-link" dangerouslySetInnerHTML={{ __html: "&lt;KeaganBogart/&gt;" }}></a>
           </a>
         </li>        
-        <li className="nav-item">
+        <li className="nav-item a">
           <a
             href="#about"
             className="nav-link"
@@ -25,7 +25,7 @@ const Navbar = () => {
             About
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item a">
           <a
             href="#experience"
             className="nav-link"
@@ -34,7 +34,7 @@ const Navbar = () => {
             Experience
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item a">
           <a
             href="#contact"
             className="nav-link"
@@ -43,7 +43,7 @@ const Navbar = () => {
             Contact
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item a">
           <a
             href="#resume"
             className="nav-link"

@@ -1,24 +1,17 @@
-// import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar/Navbar.js';
+import About from './About/About';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
+        <About/>
       </header>
+
+      <footer className="footer">
+        <p>Copyright © Keagan Bogart 2023</p>
+    </footer>
     </div>
   );
 }
