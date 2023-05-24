@@ -12,16 +12,17 @@ export default function MediaControlCard() {
   const theme = useTheme();
 
   return (
-    <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 440, maxHeight: 150 }}>
+    <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 440, maxHeight: 140}}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="div" variant="h5">
-            USAA Summer 
+          Teacher Assistant
           </Typography>
           <Typography variant="subtitle1" color="text.secondary" component="div" sx={{ fontSize: '15px' }}>
-          ‣ Summer 2022 worked as Full Stack Software Engineer
+          ‣ Presnting Labs, creating and grading assignments 
           <br/>
-          ‣ Summer 2023 will work as an AWS Cloud Developer
+          ‣ Manage Teacher Assistants
+
           </Typography>
         </CardContent>
 
@@ -29,7 +30,7 @@ export default function MediaControlCard() {
       <CardMedia
         component="img"
         sx={{ width: 151 }}
-        image="\usaa.jpg"
+        image="\ta.jpg"
         alt="Me at USAA"
       />
     </Card>

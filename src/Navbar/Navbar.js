@@ -3,8 +3,11 @@ import './nav.css';
 const Navbar = () => {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
-    element.scrollIntoView({ behavior: "smooth" });
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
+  
 
   return (
     <nav className="navbar">
@@ -13,7 +16,11 @@ const Navbar = () => {
           <a
             className="nav-link"
           >
-          <a className="nav-link" dangerouslySetInnerHTML={{ __html: "&lt;KeaganBogart/&gt;" }}></a>
+            <a>
+
+          <a className="nav-name" dangerouslySetInnerHTML={{ __html: "&lt;KeaganBogart/&gt;" }}></a>
+            </a>
+
           </a>
         </li>        
         <li className="nav-item a">
@@ -48,7 +55,6 @@ const Navbar = () => {
             href="\resume.pdf"
             target = "_blank"
             className="nav-link"
-            // onClick={() => scrollToSection("resume")}
           >
             Resume
           </a>

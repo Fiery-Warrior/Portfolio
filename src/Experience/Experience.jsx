@@ -2,7 +2,7 @@ import React from "react";
 import "./experience.css";
 import ActionAreaCard from "./Moriarty";
 import Career from "./USAAimage";
-import TA from "./TA";
+import TA from "./TAimage";
 import Langs from "./Langs";
 
 const Experience = () => {
