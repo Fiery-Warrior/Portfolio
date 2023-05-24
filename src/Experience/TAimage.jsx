@@ -18,7 +18,7 @@ export default function MediaControlCard() {
           <Typography component="div" variant="h5">
           Teacher Assistant
           </Typography>
-          <Typography variant="subtitle1" color="text.secondary" component="div" sx={{ fontSize: '15px' }}>
+          <Typography variant="subtitle1" color="text.secondary" component="div" sx={{ fontSize: '13px' }}>
           ‣ Presnting Labs, creating and grading assignments 
           <br/>
           ‣ Manage Teacher Assistants
