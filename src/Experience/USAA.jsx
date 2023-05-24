@@ -5,25 +5,29 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-export default function ActionAreaCard() {
+export default function Career() {
   return (
     <Card sx={{ maxWidth: 345, minWidth: 440, }}>
-      <a href = "https://www.moriartymatrix.com/" style={{textDecoration: "none"}} target="_blank">
     <CardActionArea>
-      <CardMedia
+      {/* <CardMedia
         component="img"
         alt="Recent Project"
-        height="80"
+        height="100"
         image="\MoriartyLogo.png"
-      />
+      /> */}
         <CardContent>
-          <Typography variant="body2" color="text.secondary" fontSize={15}>
-            Educational Offensive Cyber Security Framework that guides the user through Lockhead Martin's Cyber Kill Chain
+          <Typography gutterBottom variant="h5" component="div">
+            USAA
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Summer 2022 Worked as Full Stack Software Engineer
+            Summer 2023 Wil be working as an AWS Cloud Developer
           </Typography>
         </CardContent>
+        
       </CardActionArea>
-      </a>
-
     </Card>
+
+    
   );
 }

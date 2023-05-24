@@ -15,15 +15,7 @@ export default function Career() {
         height="100"
         image="\MoriartyLogo.png"
       /> */}
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            USAA
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Summer 2022 Worked as Full Stack Software Engineer
-            Summer 2023 Wil be working as an AWS Cloud Developer
-          </Typography>
-        </CardContent>
+
 
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -37,5 +29,7 @@ export default function Career() {
         
       </CardActionArea>
     </Card>
+
+    
   );
 }

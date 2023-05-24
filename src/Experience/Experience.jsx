@@ -1,7 +1,9 @@
 import React from "react";
 import "./experience.css";
 import ActionAreaCard from "./Moriarty";
-import Career from "./Career";
+import Career from "./USAA";
+import TA from "./TA";
+import Langs from "./Langs";
 
 const Experience = () => {
   return (
@@ -20,11 +22,18 @@ const Experience = () => {
       <div className="container">
         <div className="header">Recent Experience</div>
         <div className="content">
-          <Career />
+          <section className="careers">
+         <Career />
           <br/>
-          <div className="image">
+          <TA />
+          <br/>
+          </section>
+          <div className="mor">
             <ActionAreaCard />
           </div>
+          <section className="languages">
+          <Langs/>
+          </section>
         </div>
       </div>
     </section>
