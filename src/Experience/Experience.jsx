@@ -1,7 +1,7 @@
 import React from "react";
 import "./experience.css";
 import ActionAreaCard from "./Moriarty";
-import Career from "./USAA";
+import Career from "./USAAimage";
 import TA from "./TA";
 import Langs from "./Langs";
 

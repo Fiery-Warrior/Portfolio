@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function Langs() {
   return (
-    <Card sx={{ maxWidth: 345, minWidth: 980 }}>
+    <Card sx={{ maxWidth: 345, minWidth: 985 }}>
       <CardActionArea>
         <CardContent>
             {/** the repeat() function creates 4 columns with equal widths (and the 1fr means one fraction of the available space is used) */}
