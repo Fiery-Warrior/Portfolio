@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Navbar/Navbar.js';
 import About from './About/About';
 import Experience from './Experience/Experience';
+import Connect from './Connect/Connect';
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
         <Navbar/>
         <About/>
         <Experience/>
+        <Connect/>
       </header>
 
       <footer className="footer">

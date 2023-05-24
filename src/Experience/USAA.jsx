@@ -20,8 +20,8 @@ export default function Career() {
             USAA
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Summer 2022 Worked as Full Stack Software Engineer
-            Summer 2023 Wil be working as an AWS Cloud Developer
+            Summer 2022 worked as Full Stack Software Engineer
+            Summer 2023 will work as an AWS Cloud Developer
           </Typography>
         </CardContent>
         
