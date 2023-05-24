@@ -5,10 +5,11 @@ import ImgMediaCard from "./image";
 const About = () => {
   return (
     <section id="about" style={{color: "#000000" }}>
-      <div className="container">
+      <div className="container-a">
         <div className="description">
-          <h1>Who am I?</h1>
-          <p>
+          {/* <h1>Who am I?</h1> */}
+          <h1 style={{ textAlign: "left" }}>Who am I?</h1>
+          <p style={{ textAlign: "left" }}>
             Hello! I'm Keagan Bogart, a Senior Cyber Security Student at DBU.
             <br />
             <br />

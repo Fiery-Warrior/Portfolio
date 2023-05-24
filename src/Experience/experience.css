@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+  position: relative;
+}
+
+
+.header {
+  position: absolute;
+  top: 150px;
+  left: -319px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+
+.tech-list {
+  margin-top: -44px;
+  text-align: center;
+  margin-right: 204px;
+}
+
+ h1 {
+  font-size: 50px !important;
+  /* margin-right: -294px !important;
+  margin-top: -550px !important; */
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.row ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.row li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tech-list span {
+  border-radius: 4px;
+  /* margin-right: 10px;
+  font-size: 26px; */
+  margin-right: 72px;
+  font-size: 36px;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-list {
+  margin-top: -350px;
+  text-align: center;
+}
+
+.tech-list h1 {
+  font-size: 35px;
+}
+
+.tech-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-list li {
+  display: flex;
+  margin-bottom: 10px; 
+}
+
+.tech-list span {
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 26px;
+} */

@@ -45,9 +45,10 @@ const Navbar = () => {
         </li>
         <li className="nav-item a">
           <a
-            href="#resume"
+            href="\resume.pdf"
+            target = "_blank"
             className="nav-link"
-            onClick={() => scrollToSection("resume")}
+            // onClick={() => scrollToSection("resume")}
           >
             Resume
           </a>
