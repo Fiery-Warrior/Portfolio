@@ -12,7 +12,8 @@
 
 .header {
   position: absolute;
-  top: 60px;
+  /* top: 60px; */
+  top: 110px;
   left: -527px;
   font-size: 55px;
   font-weight: bold;
@@ -60,19 +61,22 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 69px;
+  /* top: 60px; */
+  top: 120px;
   left: 19px;
 }
 
 .mor {
   position: absolute;
-  top: 150px;
+  /* top: 150px; */
+  top: 210px;
   left: -527px;
 }
 
 .languages{
   position: absolute;
-  top: 420px;
+  /* top: 420px; */
+  top: 480px;
   left: -527px;
 }
 

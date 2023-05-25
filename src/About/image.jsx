@@ -52,7 +52,7 @@ export default function ImgMediaCard() {
           />
         </a>
         <a
-          href="https://github.com/Fiery-Warrior/mm_pythonweb"
+          href="https://github.com/Fiery-Warrior"
           target="_blank"
         >
           <FaGithubSquare

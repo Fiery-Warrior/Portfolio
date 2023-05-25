@@ -1,6 +1,7 @@
 import React from "react";
 import './nav.css';
 import kbComponent from './kbComponent.png';
+import Resume from './resume.pdf';
 
 const Navbar = () => {
   const scrollToSection = (id) => {
@@ -18,6 +19,8 @@ const Navbar = () => {
             className="nav-link"
             style={{ marginRight: "auto" }} 
           >
+          
+          <a href = "https://www.linkedin.com/in/keagan-bogart-786951209" target = "_blank">
             <section className="logo">
               <img
                 src={kbComponent}
@@ -25,6 +28,8 @@ const Navbar = () => {
                 style={{  maxWidth: "75%", height: "auto", paddingTop: "4%", paddingLeft: "5%" }} 
               />
             </section>
+          </a>
+
 
           </a>
         </li>
@@ -57,7 +62,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item a">
           <a
-            href="\resume.pdf"
+            href={Resume}
             target="_blank"
             className="nav-link"
           >
