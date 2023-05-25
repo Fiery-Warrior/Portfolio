@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
   margin: 0;
 
   position: relative;
-}
+} */
 
 
 .header {
@@ -74,4 +74,86 @@
   position: absolute;
   top: 420px;
   left: -527px;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+@media (max-width: 1087px) {
+  .header {
+    left: -443px;
+    font-size: 45px;
+  }
+
+  .mor {
+    top: 150px;
+    left: -443px;
+  }
+
+  .languages{
+    left: -443px;
+  }
+
+}
+
+
+@media (max-width: 950px) {
+  .header {
+    left: -418px;
+    font-size: 47px;
+  }
+
+  .mor {
+    top: 150px;
+    left: -418px;
+  }
+
+  .languages{
+    left: -418px;
+  }
+
+}
+
+
+
+@media (max-width: 500px) {
+  .header {
+    top: 86px;
+    left: -164px;
+    font-size: 65px;
+  }
+
+  .mor {
+    top: 575px;
+    left: -195px;
+  }
+
+  .languages{
+    left: -195px;
+    top: 850px;
+    font-size: 12px;
+  }
+
+
+  .careers {
+    top: 208px;
+    left: -191px;
+  }
+
 }

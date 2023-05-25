@@ -1,17 +1,15 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 export default function Langs() {
   return (
-    <Card sx={{ maxWidth: 345, minWidth: 985 }}>
+    <Card sx={{ maxWidth: 345, minWidth: 985, '@media (max-width: 1087px)': { minWidth: 902 }, '@media (max-width: 950px)': { minWidth: 877 }, '@media (max-width: 550px)': { minWidth: 400 } }}>
       <CardActionArea>
         <CardContent>
-            {/** the repeat() function creates 4 columns with equal widths (and the 1fr means one fraction of the available space is used) */}
-          <Typography gutterBottom variant="h5" component="div" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
+          <Typography gutterBottom variant="h5" component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', '@media (max-width: 550px)': { fontSize: '1.22rem' } }}>
             <span>‣ React.js</span>
             <span>‣ Django</span>
             <span>‣ AWS</span>

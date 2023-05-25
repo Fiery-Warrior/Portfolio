@@ -6,6 +6,13 @@ import TA from "./TA";
 import Langs from "./Langs";
 
 const Experience = () => {
+  const screenWidth = window.innerWidth; // Get the current screen width
+
+  let headerText = "Recent Experience";
+  if (screenWidth < 499) {
+    headerText = "Experience";
+  }
+
   return (
     <section
       id="experience"
@@ -21,19 +28,19 @@ const Experience = () => {
       }}
     >
       <div className="container">
-        <div className="header">Recent Experience</div>
+        <div className="header">{headerText}</div>
         <div className="content">
           <section className="careers">
-         <Career />
-          <br/>
-          <TA />
-          <br/>
+            <Career />
+            <br />
+            <TA />
+            <br />
           </section>
           <div className="mor">
             <ActionAreaCard />
           </div>
           <section className="languages">
-          <Langs/>
+            <Langs />
           </section>
         </div>
       </div>

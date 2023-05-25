@@ -87,14 +87,19 @@ body {
       padding-right: 2%;
     }
   
+    .navbar {
+      padding: 16px 6px;
+      
+    }
+
     .nav-item a {
       margin-right: 12px;
     }
   
     .logo img {
-      max-width: 50%;
-      padding-top: 1%;
-      padding-left: 2%;
+      max-width: 40% !important;
+      padding-top: 5% !important;
+      padding-left: 2% !important;
     }
   }
   

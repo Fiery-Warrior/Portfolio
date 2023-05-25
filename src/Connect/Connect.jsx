@@ -19,18 +19,18 @@ const Connect = () => {
           <h1 style={{ textAlign: "center" }}>Contact</h1>
         </div>
 
-        <Card sx={{ maxWidth: 345, minWidth: 440 }} className="contactme">
+        <Card sx={{ maxWidth: 345, minWidth: 290 }} className="contactme">
           <CardActionArea onClick={handleEmailClick}>
             <CardContent>
-            <a href="https://www.linkedin.com/in/keagan-bogart-786951209" target="_blank">
-            <FaLinkedin size={45} style={{ color: "#0A66C2", paddingRight: "5%"  }}/>
-          </a>
-          <a href="https://github.com/Fiery-Warrior/mm_pythonweb" target="_blank">
-            <FaGithubSquare size={45} style={{ color: "#000000", paddingRight: "5%" }}/>
-          </a>
-          <a href="mailto:keagan.j.bogart@gmail.com">
-            <RiMailFill size={45} style={{ color: "#D44638", paddingRight: "5%" }}/>
-          </a>
+              <a href="https://www.linkedin.com/in/keagan-bogart-786951209" target="_blank">
+                <FaLinkedin size={45} style={{ color: "#0A66C2", paddingRight: "5%" }} />
+              </a>
+              <a href="https://github.com/Fiery-Warrior/mm_pythonweb" target="_blank">
+                <FaGithubSquare size={45} style={{ color: "#000000", paddingRight: "5%" }} />
+              </a>
+              <a href="mailto:keagan.j.bogart@gmail.com">
+                <RiMailFill size={45} style={{ color: "#D44638", paddingRight: "5%" }} />
+              </a>
             </CardContent>
           </CardActionArea>
         </Card>
