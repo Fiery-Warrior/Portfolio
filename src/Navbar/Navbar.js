@@ -1,5 +1,7 @@
 import React from "react";
 import './nav.css';
+import kbComponent from './kbComponent.png';
+
 const Navbar = () => {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -7,22 +9,25 @@ const Navbar = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  
 
   return (
     <nav className="navbar">
       <ul className="navbar-nav">
-      <li className="nav-item">
+        <li className="nav-item">
           <a
             className="nav-link"
+            style={{ marginRight: "auto" }} 
           >
-            <a>
-
-          <a className="nav-name" dangerouslySetInnerHTML={{ __html: "&lt;KeaganBogart/&gt;" }}></a>
-            </a>
+            <section className="logo">
+              <img
+                src={kbComponent}
+                alt="Logo"
+                style={{  maxWidth: "75%", height: "auto", paddingTop: "4%", paddingLeft: "5%" }} 
+              />
+            </section>
 
           </a>
-        </li>        
+        </li>
         <li className="nav-item a">
           <a
             href="#about"
@@ -53,7 +58,7 @@ const Navbar = () => {
         <li className="nav-item a">
           <a
             href="\resume.pdf"
-            target = "_blank"
+            target="_blank"
             className="nav-link"
           >
             Resume
