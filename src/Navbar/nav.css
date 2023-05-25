@@ -60,3 +60,41 @@ body {
     top:0; 
     left:0; 
   }
+
+
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .nav-link {
+      font-size: 20px;
+      padding-right: 5%;
+    }
+  
+    .nav-item a {
+      margin-right: 20px;
+    }
+  
+    .logo img {
+      max-width: 60%;
+      padding-top: 2%;
+      padding-left: 3%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-link {
+      font-size: 16px;
+      padding-right: 2%;
+    }
+  
+    .nav-item a {
+      margin-right: 12px;
+    }
+  
+    .logo img {
+      max-width: 50%;
+      padding-top: 1%;
+      padding-left: 2%;
+    }
+  }
+  
