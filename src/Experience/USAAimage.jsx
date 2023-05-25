@@ -12,9 +12,9 @@ export default function MediaControlCard() {
   const theme = useTheme();
 
   return (
+    <a href = "https://www.linkedin.com/pulse/my-summer-internship-experience-usaa-keagan-bogart?trk=public_profile_article_view" style={{textDecoration: "none"}} target="_blank">
     <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 440, maxHeight: 150 }}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-      <a href = "https://www.linkedin.com/pulse/my-summer-internship-experience-usaa-keagan-bogart?trk=public_profile_article_view" style={{textDecoration: "none"}} target="_blank">
 
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="div" variant="h5">
@@ -26,7 +26,6 @@ export default function MediaControlCard() {
           ‣ Summer 2023 will work as an AWS Cloud Developer
           </Typography>
         </CardContent>
-</a>
       </Box>
       <CardMedia
         component="img"
@@ -35,5 +34,6 @@ export default function MediaControlCard() {
         alt="Me at USAA"
       />
     </Card>
+</a>
   );
 }

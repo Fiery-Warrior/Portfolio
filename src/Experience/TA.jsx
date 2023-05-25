@@ -7,7 +7,8 @@ import { CardActionArea } from '@mui/material';
 
 export default function Career() {
   return (
-    <Card sx={{ maxWidth: 345, minWidth: 440, minHeight: 100}}>
+    <a href = "\resume.pdf" style={{textDecoration: "none"}} target="_blank">
+    <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 440, minHeight: 137}}>
     <CardActionArea>
       {/* <CardMedia
         component="img"
@@ -16,19 +17,21 @@ export default function Career() {
         image="\MoriartyLogo.png"
       /> */}
 
-
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             Teacher Assistant
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Presnting Labs, creating and grading assignments <br/>Manage two other Teacher Assistants
+          ‣ Presnting Labs, creating and grading assignments 
+          <br/>
+          ‣ Manage Teacher Assistants
 
           </Typography>
         </CardContent>
-        
+
       </CardActionArea>
     </Card>
+    </a>
 
     
   );
