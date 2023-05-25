@@ -132,28 +132,35 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 418px) {
   .header {
-    top: 86px;
+    top: 50px;
     left: -164px;
     font-size: 65px;
   }
 
-  .mor {
-    top: 575px;
-    left: -195px;
-  }
-
-  .languages{
-    left: -195px;
-    top: 850px;
-    font-size: 12px;
-  }
-
-
   .careers {
-    top: 208px;
+    top: 190px;
     left: -191px;
   }
+
+  .mor {
+    top: 560px;
+    left: -195px;
+  }
+
+  /* .languages{
+    left: -195px;
+    top: 780px;
+    font-size: 12px;
+  } */
+    .languages {
+      left: -195px;
+      top: 780px;
+      font-size: 12px;
+      border: 1px solid black;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  
 
 }

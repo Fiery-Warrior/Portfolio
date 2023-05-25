@@ -48,9 +48,14 @@
 }
 }
 
-@media (max-width: 398px) {
+@media (max-width: 418px) {
 
   .contactme {
-    bottom: -168% !important;
+    /* bottom: -168% !important; */
+    display: none;
+  }
+
+  .description {
+    display: none;
   }
 }
