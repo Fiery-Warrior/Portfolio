@@ -48,23 +48,22 @@
 }
 }
 
-@media (max-width: 376px) {
-
-  .contactme {
-    /* bottom: -168% !important; */
-    /* display: none; */
-    bottom: -190% !important;
-  }
-
-
-}
 
 @media (max-width: 418px) {
-
   .contactme {
-
     bottom: -140% !important;
   }
+}
 
 
+@media (max-width: 391px) {
+  .contactme {
+    bottom: -150% !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .contactme {
+    bottom: -190% !important;
+  }
 }
