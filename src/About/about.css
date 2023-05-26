@@ -73,7 +73,8 @@
   }
 
   .image {
-    margin-top: -228px;
-    margin-bottom: 140px;
+    /* margin-top: -228px; */
+    margin-top: 10px;
+    margin-bottom: 330px;
   }
 }

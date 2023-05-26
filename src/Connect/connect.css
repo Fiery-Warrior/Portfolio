@@ -44,15 +44,26 @@
 
 @media (max-width: 598px) {
   .contactme {
-  bottom: -115% !important;
+  bottom: -150% !important;
 }
+}
+
+@media (max-width: 376px) {
+
+  .contactme {
+    /* bottom: -168% !important; */
+    /* display: none; */
+    bottom: -190% !important;
+  }
+
+
 }
 
 @media (max-width: 418px) {
 
   .contactme {
-    /* bottom: -168% !important; */
-    /* display: none; */
+
+    bottom: -140% !important;
   }
 
 

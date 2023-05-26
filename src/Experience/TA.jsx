@@ -9,7 +9,7 @@ import { CardActionArea } from '@mui/material';
 export default function Career() {
   return (
     <a href = "https://github.com/Fiery-Warrior/mm_pythonweb/blob/main/READmeSources/resume.pdf" style={{textDecoration: "none"}} target="_blank">
-    <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 440, minHeight: 137, '@media (max-width: 950px)': { minHeight: 150 }, '@media (max-width: 550px)': { minWidth: 400 }, '@media (max-width: 418px)': { minHeight: 135 }}}>
+    <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 440, minHeight: 137, '@media (max-width: 950px)': { minHeight: 150 }, '@media (max-width: 550px)': { minWidth: 355 }, '@media (max-width: 418px)': { minHeight: 135 }}}>
     <CardActionArea>
       {/* <CardMedia
         component="img"
