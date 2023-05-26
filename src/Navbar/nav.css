@@ -4,6 +4,7 @@ html {
 
 body {
   scroll-behavior: smooth;
+  background-color: #d9dfe3;
 }
 
 
@@ -63,7 +64,6 @@ body {
 
 
 
-  /* Media Queries */
   @media (max-width: 768px) {
     .nav-link {
       font-size: 20px;

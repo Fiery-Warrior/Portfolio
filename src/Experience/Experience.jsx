@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./experience.css";
 import ActionAreaCard from "./Moriarty";
 import Career from "./USAAimage";
@@ -6,7 +6,19 @@ import TA from "./TA";
 import Langs from "./Langs";
 
 const Experience = () => {
-  const screenWidth = window.innerWidth; // Get the current screen width
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   let headerText = "Recent Experience";
   if (screenWidth < 499) {
@@ -25,6 +37,7 @@ const Experience = () => {
         alignItems: "center",
         justifyContent: "center",
         boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+        
       }}
     >
       <div className="container">

@@ -86,8 +86,24 @@
 
 
 
+@media (max-width: 391px) {
+  .container {
+    height: 112vh !important;
+  }
 
+  .mor {
+    top: 530px !important;
+  }
 
+  .languages {
+    top: 758px !important;
+  }
+}
+@media (max-width: 376px) {
+  .container {
+    height: 170vh !important;
+  }
+}
 
 .container {
   display: flex;

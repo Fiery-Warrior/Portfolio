@@ -25,7 +25,7 @@ const Connect = () => {
               <a href="https://www.linkedin.com/in/keagan-bogart-786951209" target="_blank">
                 <FaLinkedin size={45} style={{ color: "#0A66C2", paddingRight: "5%" }} />
               </a>
-              <a href="https://github.com/Fiery-Warrior/mm_pythonweb" target="_blank">
+              <a href="https://github.com/Fiery-Warrior" target="_blank">
                 <FaGithubSquare size={45} style={{ color: "#000000", paddingRight: "5%" }} />
               </a>
               <a href="mailto:keagan.j.bogart@gmail.com">

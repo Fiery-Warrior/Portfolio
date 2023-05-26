@@ -11,6 +11,8 @@ const Navbar = () => {
     }
   };
 
+
+
   return (
     <nav className="navbar">
       <ul className="navbar-nav">
@@ -75,3 +77,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
