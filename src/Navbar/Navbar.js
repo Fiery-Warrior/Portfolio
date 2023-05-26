@@ -1,7 +1,7 @@
 import React from "react";
 import './nav.css';
 import kbComponent from './kbComponent.png';
-import Resume from './resume.pdf';
+// import Resume from './resume.pdf';
 
 const Navbar = () => {
   const scrollToSection = (id) => {
@@ -64,7 +64,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item a">
           <a
-            href={Resume}
+            href= "https://github.com/Fiery-Warrior/mm_pythonweb/blob/main/READmeSources/resume.pdf"
             target="_blank"
             className="nav-link"
           >
