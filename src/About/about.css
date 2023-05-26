@@ -71,4 +71,9 @@
   .description p {
     font-size: 14px;
   }
+
+  .image {
+    margin-top: -228px;
+    margin-bottom: 140px;
+  }
 }

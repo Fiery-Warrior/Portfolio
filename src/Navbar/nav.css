@@ -10,7 +10,7 @@ body {
 
 
 .navbar {
-    background-color: #d9dfe3;
+    background-color: #88c3eb/*#d9dfe3*/;
     padding: 16px 20px;
     position: fixed;
     top: 0;
@@ -44,11 +44,16 @@ body {
     padding-right: 10%;
   }
   
-  .nav-link:hover {
+  /* .nav-link:hover {
     color: rgb(168, 178, 209);
     ;
+  } */
+  .nav-link:hover {
+    color: black;
+    text-shadow: 0 0 10px black;
+    transition: text-shadow 0.8s ease-in-out;
   }
-
+  
 
   .nav-name {
     font-weight: 600;
@@ -79,6 +84,14 @@ body {
       padding-top: 2%;
       padding-left: 3%;
     }
+
+    .dis {
+      display: none;
+    }
+
+    .navbar {
+      padding: 33px 20px;
+    }
   }
   
   @media (max-width: 480px) {
@@ -88,7 +101,7 @@ body {
     }
   
     .navbar {
-      padding: 16px 6px;
+      padding: 30px 6px;
       
     }
 
@@ -97,7 +110,7 @@ body {
     }
   
     .logo img {
-      max-width: 27% !important;
+      max-width: 55% !important;
       padding-top: 5% !important;
       padding-left: 2% !important;
     }

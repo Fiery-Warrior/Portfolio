@@ -35,6 +35,8 @@ const Navbar = () => {
 
           </a>
         </li>
+
+        <section className="dis">
         <li className="nav-item a">
           <a
             href="#about"
@@ -44,6 +46,11 @@ const Navbar = () => {
             About
           </a>
         </li>
+        </section>
+
+
+
+        <section className="dis">
         <li className="nav-item a">
           <a
             href="#experience"
@@ -53,7 +60,11 @@ const Navbar = () => {
             Experience
           </a>
         </li>
-        <li className="nav-item a">
+        </section>
+
+
+        <section className="dis">
+               <li className="nav-item a">
           <a
             href="#contact"
             className="nav-link"
@@ -62,6 +73,9 @@ const Navbar = () => {
             Contact
           </a>
         </li>
+        </section>
+   
+        <section className="dis">
         <li className="nav-item a">
           <a
             href= "https://github.com/Fiery-Warrior/mm_pythonweb/blob/main/READmeSources/resume.pdf"
@@ -71,6 +85,9 @@ const Navbar = () => {
             Resume
           </a>
         </li>
+        </section>
+        
+
       </ul>
     </nav>
   );

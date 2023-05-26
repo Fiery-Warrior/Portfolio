@@ -15,7 +15,7 @@ const Connect = () => {
   return (
     <section id="contact" style={{ color: "#000000" }}>
       <div className="container-a">
-        <div className="description">
+        <div className="description-c">
           <h1 style={{ textAlign: "center" }}>Contact</h1>
         </div>
 

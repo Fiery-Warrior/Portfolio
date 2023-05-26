@@ -6,20 +6,20 @@
   padding-bottom: 5px;
 }
 
-.description {
+.description-c {
   flex: 1;
   padding-right: 20px;
   padding-left: 5%;
   padding-block-end: 245px;
 }
 
-.description h1 {
+.description-c h1 {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 120px;
 }
 
-.description p {
+.description-c p {
   font-size: 20px;
 }
 
@@ -52,10 +52,8 @@
 
   .contactme {
     /* bottom: -168% !important; */
-    display: none;
+    /* display: none; */
   }
 
-  .description {
-    display: none;
-  }
+
 }
