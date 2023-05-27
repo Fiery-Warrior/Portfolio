@@ -101,7 +101,7 @@ body {
     }
   
     .navbar {
-      padding: 30px 6px;
+      padding: 33px 6px;
       
     }
 
@@ -110,9 +110,16 @@ body {
     }
   
     .logo img {
-      max-width: 55% !important;
-      padding-top: 5% !important;
-      padding-left: 2% !important;
+        max-width: 75% !important;
+        padding-top: 5% !important;
+        padding-left: 22% !important;
     }
   }
   
+
+
+  @media (min-width: 480px) {
+    .mobile {
+      display: none;
+    }
+  }

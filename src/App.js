@@ -4,7 +4,7 @@ import About from './About/About';
 import Experience from './Experience/Experience';
 import Connect from './Connect/Connect';
 // import Hambar from './Hambar/Hambar';
-import DrawerAppBar from './Hambar/Hambar'
+import HamburgerMenu from './Ham/Hambar'
 import MobileConnect from './Connect/MobileSize/MobileConnect'
 // import HamburgerMenu from './Ham/Hambar';
 
@@ -15,6 +15,7 @@ function App() {
         <Navbar/>
         {/* <DrawerAppBar/> */}
         {/* <HamburgerMenu/> */}
+        <HamburgerMenu/>
         <About/>
         <Experience/>
         <Connect/>

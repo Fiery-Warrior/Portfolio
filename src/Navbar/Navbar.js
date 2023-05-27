@@ -2,6 +2,7 @@ import React from "react";
 import './nav.css';
 import kbComponent from './kbComponent.png';
 // import Resume from './resume.pdf';
+import SidePanel from "../Ham/Hambar";
 
 const Navbar = () => {
   const scrollToSection = (id) => {
@@ -15,6 +16,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+      <section className="mobile">
+      <SidePanel/>
+      </section>
       <ul className="navbar-nav">
         <li className="nav-item">
           <a
