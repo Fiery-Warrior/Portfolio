@@ -76,13 +76,21 @@
 } */
 
 
-.container-a {
+/* .container-a {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 5%;
   padding-bottom: 5px;
+} */
+.container-a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  /* padding-bottom: 5px; */
 }
+
 
 .description-c {
   flex: 1;
@@ -107,12 +115,21 @@
   justify-content: flex-start;
 }
 
+/* .contactme {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+} */
 .contactme {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  /* top: 25px; */
+  margin-top: 25px;
 }
+
 
 @media (max-width: 768px) {
   .contactme {
