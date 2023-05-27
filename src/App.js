@@ -4,7 +4,7 @@ import About from './About/About';
 import Experience from './Experience/Experience';
 import Connect from './Connect/Connect';
 // import Hambar from './Hambar/Hambar';
-
+import MobileConnect from './Connect/MobileSize/MobileConnect'
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
         <About/>
         <Experience/>
         <Connect/>
+        <MobileConnect/>
       </header>
 
       <footer className="footer">

@@ -41,10 +41,16 @@
 
 @media (max-width: 768px) {
   .contactme {
-    bottom: -110% !important;
+    /* bottom: -110% !important; */
+    display: none;
+  }
+
+  .description-c {
+    display: none;
+
   }
 }
-
+/* 
 @media (max-width: 598px) {
   .contactme {
     bottom: -150% !important;
@@ -73,4 +79,4 @@
   .contactme {
     bottom: -215% !important;
   }
-}
+} */

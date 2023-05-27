@@ -75,6 +75,8 @@
   .image {
     /* margin-top: -228px; */
     margin-top: 10px;
-    margin-bottom: 330px;
+    /* margin-bottom: 330px; */
+    margin-bottom: 100px;
+
   }
 }
