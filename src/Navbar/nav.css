@@ -111,7 +111,7 @@ body {
   
     .logo img {
         max-width: 75% !important;
-        padding-top: 5% !important;
+        padding-top: 3% !important;
         padding-left: 22% !important;
     }
   }
@@ -121,5 +121,5 @@ body {
   @media (min-width: 480px) {
     .mobile {
       display: none;
-    }
+    } 
   }

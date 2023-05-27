@@ -58,7 +58,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) { 
   .description {
     padding-left: 3%;
     padding-block-end: 30px;

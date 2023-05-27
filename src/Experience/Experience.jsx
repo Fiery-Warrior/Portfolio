@@ -33,7 +33,7 @@ const Experience = () => {
     alignItems: "center",
     justifyContent: "center",
     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-    height: screenWidth <= 418 ? "120vh" : "100vh", // Adjusted height based on screen size
+    height: screenWidth <= 495 ? "120vh" : "100vh", // Adjusted height based on screen size
   };
 
   return (
