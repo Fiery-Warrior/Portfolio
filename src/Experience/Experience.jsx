@@ -25,21 +25,19 @@ const Experience = () => {
     headerText = "Experience";
   }
 
+  const sectionStyle = {
+    color: "#000000",
+    backgroundColor: "#edf0f2",
+    width: "170vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+    height: screenWidth <= 418 ? "120vh" : "100vh", // Adjusted height based on screen size
+  };
+
   return (
-    <section
-      id="experience"
-      style={{
-        color: "#000000",
-        backgroundColor: "#edf0f2",
-        height: "100vh",
-        width: "170vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-        
-      }}
-    >
+    <section id="experience" style={sectionStyle}>
       <div className="container">
         <div className="header">{headerText}</div>
         <div className="content">
