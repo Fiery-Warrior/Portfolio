@@ -17,7 +17,6 @@ const Connect = () => {
       <div className="container-a">
         <div className="description-c">
           <h1 style={{ textAlign: "center" }}>Contact</h1>
-        </div>
 
         <Card sx={{ maxWidth: 345, minWidth: 290 }} className="contactme">
           <CardActionArea onClick={handleEmailClick}>
@@ -35,8 +34,12 @@ const Connect = () => {
           </CardActionArea>
         </Card>
       </div>
+      </div>
+
     </section>
+
   );
 };
 
 export default Connect;
+
