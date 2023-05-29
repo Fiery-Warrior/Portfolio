@@ -16,9 +16,9 @@ export default function Langs() {
             <span>‣ Python</span>
             
             <span>‣ VMware</span>
-            <span>‣ Linux</span>
-            <span>‣ C++</span>
-            <span>‣ Bash</span>
+            <span>‣ Java </span>
+            <span>‣ HTML </span>
+            <span>‣ CSS </span>
           </Typography>
         </CardContent>
       </CardActionArea>
