@@ -34,6 +34,11 @@ const Experience = () => {
     justifyContent: "center",
     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
     height: screenWidth <= 495 ? "120vh" : "100vh", // Adjusted height based on screen size
+    paddingLeft: "30%",
+  };
+
+  const careerStyle = {
+    marginBottom: "10px", // Add margin-bottom to create space
   };
 
   return (
@@ -42,10 +47,10 @@ const Experience = () => {
         <div className="header">{headerText}</div>
         <div className="content">
           <section className="careers">
-            <Career />
-            <br />
+            <div style={careerStyle}>
+              <Career />
+            </div>
             <TA />
-            <br />
           </section>
           <div className="mor">
             <ActionAreaCard />
