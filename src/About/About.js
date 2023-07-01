@@ -1,29 +1,41 @@
 import React from "react";
 import "./about.css";
-import ImgMediaCard from "./image";
+import Card from "@mui/material/Card";
 
 const About = () => {
   return (
-    <section id="about" style={{color: "#000000" }}>
-      <div className="container-a">
-        <div className="description">
-          {/* <h1>Who am I?</h1> */}
-          <h1 style={{ textAlign: "left" }}>Who am I?</h1>
-          <p style={{ textAlign: "left" }}>
-            Hello! I'm Keagan Bogart, a Senior Cyber Security Student at DBU.
-            <br />
-            <br />
-            Currently, I'm working as a Teaching Assistant for the Cyber Security and Computer Science department, where I lead labs, grade assignments, tutor students, and manage other TAs.
-            <br />
-            <br />
-            These past two years I've had the opportunity to work as a Full Stack Software Engineer at USAA. I am returning for a second internship where I will also be working as a Cloud Developer.
-          </p>
-        </div>
-        <div className="image">
-          <ImgMediaCard />
-        </div>
-      </div>
-    </section>
+    <div
+      style={{
+        position: "absolute",
+        top: 0,
+        left: "20%",
+        height: "150vh",
+        width: "80vw",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundImage: "url('/me2.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <Card
+        sx={{
+          maxWidth: 345,
+          minWidth: 440,
+          "@media (max-width: 768px)": {
+            maxWidth: 300,
+            minWidth: "auto",
+          },
+          "@media (max-width: 480px)": {
+            maxWidth: 250,
+          },
+        }}
+      >
+  
+        
+      </Card>
+    </div>
   );
 };
 

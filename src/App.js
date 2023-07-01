@@ -3,22 +3,24 @@ import Navbar from './Navbar/Navbar.js';
 import About from './About/About';
 import Experience from './Experience/Experience';
 import Connect from './Connect/Connect';
-// import Hambar from './Hambar/Hambar';
 import HamburgerMenu from './Ham/Hambar'
 import MobileConnect from './Connect/MobileSize/MobileConnect'
-// import HamburgerMenu from './Ham/Hambar';
+import NavbarSection from './navi';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar/>
-        {/* <DrawerAppBar/> */}
-        {/* <HamburgerMenu/> */}
-        <HamburgerMenu/>
+        {/* <Navbar/> */} {/**Original Nav top */}
+
+        <NavbarSection/> {/**Side Nav 2.0 */}
+        
+        {/* For mobile */}
+        {/* <HamburgerMenu/>*/} 
+
         <About/>
-        <Experience/>
-        <Connect/>
+        {/* <Experience/> */}
+        {/* <Connect/> */}
         <MobileConnect/>
       </header>
 
