@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Navbar/Navbar.js';
+import Landing from './Landing/Landing';
 import About from './About/About';
 import Experience from './Experience/Experience';
 import Connect from './Connect/Connect';
@@ -18,6 +19,7 @@ function App() {
         {/* For mobile */}
         {/* <HamburgerMenu/>*/} 
 
+        <Landing/>
         <About/>
         {/* <Experience/> */}
         {/* <Connect/> */}

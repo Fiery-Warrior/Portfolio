@@ -1,58 +1,29 @@
 import React from "react";
 import "./about.css";
-import Typed from "react-typed";
+import ImgMediaCard from "./image";
 
 const About = () => {
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: 0,
-        left: "20%",
-        height: "100vh",
-        width: "80vw",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundImage: "url('/me8.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      <div style={{ position: "absolute", top: "70%", left: "60%", transform: "translateX(-50%)" }}>
-        <h1 style={{ textAlign: "center", color: "#fff", fontSize: "40px" }}>Keagan Bogart</h1>
-        <h3 style={{ textAlign: "center", color: "#fff", marginBottom: "1rem" }}>
-          I'm a {" "}
-          <Typed
-            strings={[
-              "Full Stack Developer",
-              "Cloud Engineer",
-              "Creator",
-              "Dreamer",
-            ]}
-            typeSpeed={150}
-            backSpeed={100}
-            loop
-            style={{ color: "#fff", borderBottom: "3px solid #149ddd",}}
-          />
-        </h3>
-        <section
-          sx={{
-            maxWidth: 345,
-            minWidth: 440,
-            "@media (max-width: 768px)": {
-              maxWidth: 300,
-              minWidth: "auto",
-            },
-            "@media (max-width: 480px)": {
-              maxWidth: 250,
-            },
-          }}
-        >
-
-        </section>
+    <section id="about" style={{color: "#000000" }}>
+      <div className="container-a">
+        <div className="description">
+          {/* <h1>Who am I?</h1> */}
+          <h1 style={{ textAlign: "left" }}>Who am I?</h1>
+          <p style={{ textAlign: "left" }}>
+            Hello! I'm Keagan Bogart, a Senior Cyber Security Student at DBU.
+            <br />
+            <br />
+            Currently, I'm working as a Teaching Assistant for the Cyber Security and Computer Science department, where I lead labs, grade assignments, tutor students, and manage other TAs.
+            <br />
+            <br />
+            These past two years I've had the opportunity to work as a Full Stack Software Engineer at USAA. I am returning for a second internship where I will also be working as a Cloud Developer.
+          </p>
+        </div>
+        <div className="image">
+          <ImgMediaCard />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
