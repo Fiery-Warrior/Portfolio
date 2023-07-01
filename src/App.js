@@ -21,7 +21,7 @@ function App() {
 
         <Landing/>
         <About/>
-        {/* <Experience/> */}
+        <Experience/>
         {/* <Connect/> */}
         <MobileConnect/>
       </header>

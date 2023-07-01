@@ -114,7 +114,7 @@ const NavbarSection = () => {
           }}
         >
           <a
-            href="#about"
+            href="#home"
             style={{
               color: "#ccc",
               margin: "5px 0",
@@ -127,7 +127,7 @@ const NavbarSection = () => {
           >
             <AiOutlineHome /> Home
           </a>
-          <a
+          {/* <a
             href="#about"
             style={{
               color: "#ccc",
@@ -141,7 +141,31 @@ const NavbarSection = () => {
             className="section-link"
           >
             <BsPerson /> About
+          </a> */}
+          <a
+            href="#about"
+            style={{
+              color: "#ccc",
+              margin: "5px 0",
+              transition: "color 0.3s ease",
+              paddingTop: "10%",
+              textDecoration: "none", // Remove underline
+              fontSize: "85%",
+            }}
+            className="section-link"
+            onClick={(e) => {
+              e.preventDefault();
+              const aboutSection = document.getElementById("about");
+              const offset = aboutSection.offsetTop + 700;
+              window.scrollTo({
+                top: offset,
+                behavior: "smooth",
+              });
+            }}
+          >
+            <BsPerson /> About
           </a>
+
           <a
             href="#experience"
             style={{
@@ -159,7 +183,7 @@ const NavbarSection = () => {
           </a>
 
           <a
-            href="#contact"
+            href="mailto:keagan.j.bogart@gmail.com"
             style={{
               color: "#ccc",
               margin: "5px 0",
@@ -189,7 +213,7 @@ const NavbarSection = () => {
             
         }}
         >
-          Created by Keagan Bogart
+          {/* Created by Keagan Bogart */}
         </div>
       </div>
     </div>

@@ -4,13 +4,13 @@ import Typed from "react-typed";
 
 const Landing = () => {
   return (
-    <div
+    <section id="home"
       style={{
         position: "absolute",
         top: 0,
         left: "20%",
         height: "100vh",
-        width: "80vw",
+        width: "79vw",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -19,9 +19,10 @@ const Landing = () => {
         backgroundPosition: "center",
       }}
     >
-      <div style={{ position: "absolute", top: "70%", left: "60%", transform: "translateX(-50%)" }}>
-        <h1 style={{ textAlign: "center", color: "#fff", fontSize: "40px" }}>Keagan Bogart</h1>
-        <h3 style={{ textAlign: "center", color: "#fff", marginBottom: "1rem" }}>
+      
+      <div style={{ position: "absolute", top: "82%", left: "65%", transform: "translateX(-50%)" }}>
+        <h1 style={{ textAlign: "center", color: "#fff", fontSize: "37px" }}></h1> {/**Keagan Bogart */}
+        <h3 style={{ textAlign: "center", color: "#fff", marginBottom: "0.5rem",fontSize: "35px", }}>
           I'm a {" "}
           <Typed
             strings={[
@@ -30,8 +31,8 @@ const Landing = () => {
               "Creator",
               "Dreamer",
             ]}
-            typeSpeed={150}
-            backSpeed={100}
+            typeSpeed={120}
+            backSpeed={140}
             loop
             style={{ color: "#fff", borderBottom: "3px solid #149ddd",}}
           />
@@ -52,7 +53,7 @@ const Landing = () => {
 
         </section>
       </div>
-    </div>
+    </section>
   );
 };
 
