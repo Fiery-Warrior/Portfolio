@@ -49,6 +49,11 @@
     display: none;
 
   }
+
+.container-a {
+  padding-top: 224%;
+  padding-left: 20%;
+}
 }
 /* 
 @media (max-width: 598px) {

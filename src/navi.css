@@ -11,3 +11,7 @@
 .icon-link:hover {
   background-color: #149ddd;
 }
+
+.nav-icons{
+  display: none !important;
+}
