@@ -3,8 +3,12 @@ import "./landing.css";
 import Typed from "react-typed";
 
 const Landing = () => {
+
+  const isSmallScreen = window.innerWidth < 758;
+
   return (
-    <section id="home"
+    <section
+      id="home"
       style={{
         position: "absolute",
         top: 0,
@@ -19,22 +23,30 @@ const Landing = () => {
         backgroundPosition: "center",
       }}
     >
-      
-      <div style={{ position: "absolute", top: "82%", left: "65%", transform: "translateX(-50%)" }}>
-        <h1 style={{ textAlign: "center", color: "#fff", fontSize: "37px" }}></h1> {/**Keagan Bogart */}
-        <h3 style={{ textAlign: "center", color: "#fff", marginBottom: "0.5rem",fontSize: "35px", }}>
-          I'm a {" "}
+      <div
+        style={{
+          position: "absolute",
+          top: "82%",
+          left: "65%",
+          transform: "translateX(-50%)",
+        }}
+      >
+        <h1 style={{ textAlign: "center", color: "#fff", fontSize: "37px" }}></h1>
+        <h3
+          style={{
+            textAlign: "center",
+            color: "#fff",
+            marginBottom: "0.5rem",
+            fontSize: isSmallScreen ? "25px" : "35px",
+          }}
+        >
+          I'm a{" "}
           <Typed
-            strings={[
-              "Full Stack Developer",
-              "Cloud Engineer",
-              "Creator",
-              "Dreamer",
-            ]}
+            strings={["Full Stack Dev.", "Cloud Engineer", "Creator"]}
             typeSpeed={120}
             backSpeed={140}
             loop
-            style={{ color: "#fff", borderBottom: "3px solid #149ddd",}}
+            style={{ color: "#fff", borderBottom: "3px solid #149ddd" }}
           />
         </h3>
         <section
@@ -49,9 +61,7 @@ const Landing = () => {
               maxWidth: 250,
             },
           }}
-        >
-
-        </section>
+        ></section>
       </div>
     </section>
   );

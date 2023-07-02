@@ -200,7 +200,7 @@ const NavbarSection = () => {
         </div>
 
         {/* Footer */}
-        <div
+        <div className="nav-icons"
         style={{
             position: "absolute",
             bottom: "0",
@@ -212,6 +212,7 @@ const NavbarSection = () => {
             marginBottom: "10px", // Add margin bottom for spacing
             
         }}
+        
         >
           {/* Created by Keagan Bogart */}
         </div>
