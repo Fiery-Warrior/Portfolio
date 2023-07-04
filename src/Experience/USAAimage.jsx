@@ -21,7 +21,7 @@ export default function MediaControlCard() {
             USAA Intern 
           </Typography>
           <Typography variant="subtitle1" color="text.secondary" component="div" sx={{ fontSize: '13px' }}>
-          ‣ Summer 2022 worked as Full Stack Software Engineer
+          ‣ Summer 2022 worked as Full Stack Engineer
           <br/>
           ‣ Summer 2023 working as an AWS Cloud Developer
           </Typography>

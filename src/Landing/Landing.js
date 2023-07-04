@@ -7,12 +7,13 @@ const Landing = () => {
   const isSmallScreen = window.innerWidth < 758;
 
   return (
-    <section
+    <section className="home"
       id="home"
       style={{
         position: "absolute",
         top: 0,
         left: "20%",
+        '@media (max-width: 440px)': {left: "35%"},
         height: "100vh",
         width: "79vw",
         display: "flex",
@@ -42,7 +43,7 @@ const Landing = () => {
         >
           I'm a{" "}
           <Typed
-            strings={["Full Stack Dev.", "Cloud Engineer", "Creator"]}
+            strings={["Full Stack Dev.", "Cloud Engineer", "Creator", "Student"]}
             typeSpeed={120}
             backSpeed={140}
             loop
