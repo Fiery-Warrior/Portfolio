@@ -13,7 +13,7 @@ export default function MediaControlCard() {
 
   return (
     <a href = "https://www.linkedin.com/pulse/my-summer-internship-experience-usaa-keagan-bogart?trk=public_profile_article_view" style={{textDecoration: "none"}} target="_blank">
-    <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 390, maxHeight: 150, '@media (max-width: 550px)': { minWidth: 355 }, '@media (max-width: 418px)': { minHeight: 250, minWidth: 205 } }}>
+    <Card sx={{ display: 'flex', maxWidth: 345, minWidth: 390, maxHeight: 150, '@media (max-width: 550px)': { minWidth: 355 }, '@media (max-width: 418px)': { minHeight: 145, minWidth: 205 } }}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
 
         <CardContent sx={{ flex: '1 0 auto' }}>
