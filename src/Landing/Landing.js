@@ -24,7 +24,7 @@ const Landing = () => {
         backgroundPosition: "center",
       }}
     >
-      <div
+      <div className="image-text"
         style={{
           position: "absolute",
           top: "82%",

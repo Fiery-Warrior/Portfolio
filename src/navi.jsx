@@ -34,7 +34,8 @@ const NavbarSection = () => {
           marginTop: "15%",
         }}
       >
-        <Image
+          <a href="https://www.linkedin.com/in/keagan-bogart-786951209" target="_blank">
+          <Image
           src="/chair2.jpg"
           alt="Profile Image"
           style={{
@@ -42,7 +43,9 @@ const NavbarSection = () => {
             height: "100%",
             objectFit: "cover",
           }}
-        />
+        /> 
+        </a>
+
       </div>
 
       <h2 className="name" style={{ marginTop: "10px", marginBottom: "0", color: "#ccc", fontSize: "110%", paddingBottom: "5%" }}>
