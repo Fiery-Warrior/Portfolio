@@ -163,7 +163,7 @@
   .careers {
     /* top: 408px; */
     top: 195px;
-    left: -180px;
+    left: -162px;
   }
 
   .mor {
@@ -183,21 +183,30 @@
       border: 1px solid black;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+
+    h1 {
+      font-size: 45px !important;
+    
+    }
+
+    .title-usaa {
+      font-size: 13px !important ;
+    }
   
 
 }
 
 @media (max-width: 401px) {
   .header {
-    top: 50px;
-    left: -164px;
-    font-size: 65px;
+    top: 91px;
+    left: -110px;
+    font-size: 35px;
   }
 
-  .careers {
+  /* .careers {
     top: 190px;
     left: -180px;
-  }
+  } */
 
   .mor {
     /* top: 530px !important; */
