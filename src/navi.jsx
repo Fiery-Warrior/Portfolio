@@ -2,8 +2,9 @@ import React from "react";
 import Image from "react-bootstrap/Image";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { RiMailFill } from "react-icons/ri";
-import { AiOutlineHome } from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
+import { AiFillHome } from "react-icons/ai";
+import { BsPersonFill } from "react-icons/bs";
+import { IoIosPaper } from "react-icons/io";
 import { GiTeacher, GiRotaryPhone } from "react-icons/gi";
 import "./navi.css";
 
@@ -23,7 +24,7 @@ const NavbarSection = () => {
         alignItems: "center",
       }}
     >
-      <div
+      <div className="chair"
         style={{
           width: "50%",
           height: "18%",
@@ -44,7 +45,7 @@ const NavbarSection = () => {
         />
       </div>
 
-      <h2 style={{ marginTop: "10px", marginBottom: "0", color: "#ccc", fontSize: "110%", paddingBottom: "5%" }}>
+      <h2 className="name" style={{ marginTop: "10px", marginBottom: "0", color: "#ccc", fontSize: "110%", paddingBottom: "5%" }}>
       Keagan Bogart
       </h2>
 
@@ -125,7 +126,7 @@ const NavbarSection = () => {
             }}
             className="section-link"
           >
-            <AiOutlineHome /> Home
+            <AiFillHome /> Home
           </a>
           {/* <a
             href="#about"
@@ -140,7 +141,7 @@ const NavbarSection = () => {
             }}
             className="section-link"
           >
-            <BsPerson /> About
+            <BsPersonFill /> About
           </a> */}
           <a
             href="#about"
@@ -163,7 +164,7 @@ const NavbarSection = () => {
               });
             }}
           >
-            <BsPerson /> About
+            <BsPersonFill /> About
           </a>
 
           <a
@@ -182,6 +183,23 @@ const NavbarSection = () => {
             <GiTeacher /> Experience
           </a>
 
+
+          <a
+            href="https://github.com/Fiery-Warrior/mm_pythonweb/blob/main/READmeSources/resume.pdf" target="_blank"
+            style={{
+              color: "#ccc",
+              margin: "5px 0",
+              transition: "color 0.3s ease",
+              paddingTop: "10%",
+              textDecoration: "none", // Removes underline
+              fontSize: "85%",
+
+            }}
+            className="section-link"
+          >
+            <IoIosPaper /> Resume
+          </a>
+
           <a
             href="mailto:keagan.j.bogart@gmail.com"
             style={{
@@ -189,7 +207,7 @@ const NavbarSection = () => {
               margin: "5px 0",
               transition: "color 0.3s ease",
               paddingTop: "10%",
-              textDecoration: "none", // Remove underline
+              textDecoration: "none", // Removes underline
               fontSize: "85%",
 
             }}
@@ -209,7 +227,7 @@ const NavbarSection = () => {
             color: "#ccc",
             textAlign: "center",
             fontSize: "14px",
-            marginBottom: "10px", // Add margin bottom for spacing
+            marginBottom: "10px", //margin bottom for spacing
             
         }}
         

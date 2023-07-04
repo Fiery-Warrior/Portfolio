@@ -23,7 +23,7 @@ export default function Career() {
             Teacher Assistant
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          ‣ Presnting Labs, creating and grading assignments 
+          ‣ Present, create, and grade assignments 
           <br/>
           ‣ Manage Teacher Assistants
 

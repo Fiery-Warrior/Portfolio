@@ -8,6 +8,28 @@
   transition: background-color 0.3s ease;
 }
 
+@media (max-width: 430px) {
+.icon-link {
+  margin: 0 -1px !important;
+
+}
+
+.black-rectangle{
+  width: 30% !important;
+}
+
+.name {
+  font-size: 85% !important;
+  margin-top: 20px;
+}
+
+.chair {
+  width: 65% !important;
+  height: 15% !important;
+  margin-top: 25% !important;
+}
+}
+
 .icon-link:hover {
   background-color: #149ddd;
 }
@@ -15,3 +37,5 @@
 .nav-icons{
   display: none !important;
 }
+
+
