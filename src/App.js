@@ -16,9 +16,8 @@ function App() {
 
         <NavbarSection/> {/**Side Nav 2.0 */}
         
-        {/* For mobile */}
-        {/* <HamburgerMenu/>*/} 
-
+        <HamburgerMenu/>{/* For mobile */}
+         
         <Landing/>
         <About/>
         <Experience/>

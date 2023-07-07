@@ -6,6 +6,8 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { RiMailFill } from "react-icons/ri";
 import { TbBrandMatrix } from "react-icons/tb"; 
 import { TfiPencilAlt } from "react-icons/tfi"; 
+import './hambarmobile.css';
+import NavbarSectionM from './NaviM/navim';
 
 class SidePanel extends React.Component {
   state = {
@@ -48,7 +50,6 @@ class SidePanel extends React.Component {
           width: sidePanelOpen ? '180px' : '0',
           position: 'fixed',
           zIndex: 1,
-          height: '350px',
           top: 0,
           left: 0,
           backgroundColor: '#fff',
@@ -59,7 +60,6 @@ class SidePanel extends React.Component {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'flex-start',
-          // padding: '20px',
         }}>
           {sidePanelOpen && (
             <button className="closebtn" onClick={this.closeNav} style={{
@@ -73,44 +73,16 @@ class SidePanel extends React.Component {
               <RiCloseLine size={54} color="#3b6461" />
             </button>
           )}
-          <a href="#about" onClick={this.handleAboutClick} style={{ marginBottom: '15px', color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <IoPersonSharp/> About
-          </a>
-          <a href="#experience" onClick={this.handleExperienceClick} style={{ marginBottom: '15px', color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <GiTeacher/> Experience
-          </a>
-          <a href="#contact" onClick={this.handleContactClick} style={{ marginBottom: '15px',color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <GiRotaryPhone/> Contact
-          </a>
-          <a href="https://www.moriartymatrix.com" target = '_blank' onClick={this.handleAboutClick} style={{ marginBottom: '15px', color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <TbBrandMatrix/> Moriarty Matrix
-          </a>
-          <a href="https://github.com/Fiery-Warrior/mm_pythonweb/blob/main/READmeSources/resume.pdf" target = '_blank' onClick={this.handleAboutClick} style={{ marginBottom: '15px', color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <TfiPencilAlt/> Resume
-          </a>
-          <a href="https://www.linkedin.com/in/keagan-bogart-786951209" target = '_blank' onClick={this.handleAboutClick} style={{ marginBottom: '15px', color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <FaLinkedin/> Linkedin
-          </a>
-          <a href="https://github.com/Fiery-Warrior" target = '_blank' onClick={this.handleExperienceClick} style={{ marginBottom: '15px', color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <FaLinkedin/> Github
-          </a>
-          <a href="mailto:keagan.j.bogart@gmail.com" target = '_blank' onClick={this.handleContactClick} style={{ marginBottom: '15px',color: '#818181', paddingLeft: '5%', transition: '.3s', textDecoration: 'none'  }}>
-            <RiMailFill/> Email
-          </a>
-          <style>
-            {`
-              a:hover {
-                color: #f1f1f1;
-              }
-            `}
-          </style>
+
+          <NavbarSectionM/>
+
 
         </div>
 
         <button className="openbtn" onClick={this.toggleSidePanel} style={{
           position: 'fixed',
           top: '10px',
-          left: '10px',
+          right: '10px',
           background: 'none',
           border: 'none',
           cursor: 'pointer',
@@ -125,7 +97,6 @@ class SidePanel extends React.Component {
             <RiMenu2Line size={54} color="#3b6461" />
           )}
         </button>
-
       </div>
     );
   }

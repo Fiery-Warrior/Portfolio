@@ -96,7 +96,7 @@
   } */
 
   .languages {
-    top: 938px !important;
+    top: 818px !important;
   }
 }
 @media (max-width: 376px) {
@@ -140,7 +140,7 @@
   } */
 
   .mor {
-    top: 680px;
+    top: 585px;
     left: -418px;
   }
 
@@ -154,20 +154,19 @@
 
 @media (max-width: 440px) {
   .header {
-    top: 155px;
-    left: -86px;
-    font-size: 35px;
-  }
+    top: 125px;
+    left: -196px;
+    font-size: 55px;}
 
   .careers {
     /* top: 408px; */
     top: 235px;
-    left: -120px;
+    left: -220px;
   }
 
   .mor {
     /* top: 530px !important; */
-    left: -120px;
+    left: -220px;
   }
 
   /* .languages{
@@ -176,8 +175,7 @@
     font-size: 12px;
   } */
     .languages {
-      left: -120px;
-      /* top: 800px; */
+      left: -220px;
       top: 938px;
       font-size: 8px;
       border: 1px solid black;
@@ -190,7 +188,7 @@
     }
 
     .title-usaa {
-      font-size: 13px !important ;
+      font-size: 15px !important ;
     }
   
 
@@ -218,8 +216,7 @@
     font-size: 12px;
   } */
     .languages {
-      left: -120px;
-      /* top: 800px; */
+      left: -220px;
       top: 938px;
       /* font-size: 12px; */
       border: 1px solid black;
