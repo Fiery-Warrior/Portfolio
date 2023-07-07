@@ -51,7 +51,6 @@
 
 @media (max-width: 768px) {
   .footer {
-    left: 10% !important;
     position: relative !important;
     padding-left: 10% !important;
   }

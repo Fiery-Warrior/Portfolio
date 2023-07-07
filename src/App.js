@@ -7,7 +7,7 @@ import Connect from './Connect/Connect';
 import HamburgerMenu from './Ham/Hambar'
 import MobileConnect from './Connect/MobileSize/MobileConnect'
 import NavbarSection from './navi';
-
+import NavbarSectionM from './Ham/NaviM/navim';
 function App() {
   return (
     <div className="App">
@@ -16,13 +16,14 @@ function App() {
 
         <NavbarSection/> {/**Side Nav 2.0 */}
         
-        <HamburgerMenu/>{/* For mobile */}
+        {/* <HamburgerMenu/> for mobile*/}
          
         <Landing/>
         <About/>
         <Experience/>
         {/* <Connect/> */}
         <MobileConnect/>
+        <NavbarSectionM/>
 
 
       </header>

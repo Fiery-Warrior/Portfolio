@@ -1,12 +1,5 @@
 import React from 'react';
 import { RiCloseLine, RiMenu2Line } from 'react-icons/ri';
-import { IoPersonSharp } from "react-icons/io5"
-import { GiTeacher, GiRotaryPhone } from "react-icons/gi";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import { RiMailFill } from "react-icons/ri";
-import { TbBrandMatrix } from "react-icons/tb"; 
-import { TfiPencilAlt } from "react-icons/tfi"; 
-import './hambarmobile.css';
 import NavbarSectionM from './NaviM/navim';
 
 class SidePanel extends React.Component {
