@@ -32,7 +32,7 @@
 
 .contactme {
   position: absolute;
-  /* left: 50%; */
+  left: 50%;
   transform: translateX(-50%);
   text-align: center;
   margin-top: -75px;
@@ -52,6 +52,7 @@
 
 .container-a {
   padding-top: 224%;
+  /* padding-left: 32%; */
 }
 }
 /* 
