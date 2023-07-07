@@ -131,21 +131,7 @@ const NavbarSection = () => {
           >
             <AiFillHome /> Home
           </a>
-          {/* <a
-            href="#about"
-            style={{
-              color: "#ccc",
-              margin: "5px 0",
-              transition: "color 0.3s ease",
-              paddingTop: "10%",
-              textDecoration: "none", // Remove underline
-              fontSize: "85%",
-
-            }}
-            className="section-link"
-          >
-            <BsPersonFill /> About
-          </a> */}
+          
           <a
             href="#about"
             style={{
@@ -157,15 +143,6 @@ const NavbarSection = () => {
               fontSize: "85%",
             }}
             className="section-link"
-            onClick={(e) => {
-              e.preventDefault();
-              const aboutSection = document.getElementById("about");
-              const offset = aboutSection.offsetTop + 700;
-              window.scrollTo({
-                top: offset,
-                behavior: "smooth",
-              });
-            }}
           >
             <BsPersonFill /> About
           </a>
@@ -188,7 +165,7 @@ const NavbarSection = () => {
 
 
           <a
-            href="https://github.com/Fiery-Warrior/mm_pythonweb/blob/main/READmeSources/resume.pdf" target="_blank"
+            href="https://drive.google.com/file/d/1_dPJU4Snvlp7gi9mNe0kWtDGeRKrnCmr/view?usp=drive_link" target="_blank"
             style={{
               color: "#ccc",
               margin: "5px 0",

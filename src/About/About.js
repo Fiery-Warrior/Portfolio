@@ -4,9 +4,10 @@ import ImgMediaCard from "./image";
 
 const About = () => {
   return (
-    <section id="about" style={{color: "#000000" }}>
       <div className="container-a">
         <div className="description">
+    <section id="about" style={{color: "#000000" }}>
+
           {/* <h1>Who am I?</h1> */}
           <h1 style={{ textAlign: "left" }}>Who am I?</h1>
           <p style={{ textAlign: "left" }}>
@@ -18,12 +19,15 @@ const About = () => {
             <br />
             These past two years I've had the opportunity to work as a Full Stack Software Engineer at USAA. I am returning for a second internship where I will also be working as a Cloud Developer.
           </p>
+    </section>
         </div>
+        
+
+
         <div className="image">
           <ImgMediaCard />
         </div>
       </div>
-    </section>
   );
 };
 

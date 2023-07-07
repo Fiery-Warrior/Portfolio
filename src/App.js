@@ -24,13 +24,18 @@ function App() {
         <Experience/>
         {/* <Connect/> */}
         <MobileConnect/>
+
+
       </header>
 
       <footer className="footer">
+
         <p>Copyright © Keagan Bogart 2023</p>
     </footer>
     </div>
   );
 }
+
+
 
 export default App;

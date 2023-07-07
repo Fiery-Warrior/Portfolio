@@ -1,8 +1,12 @@
 .App {
-  /* text-align: center; */
   overflow-x: hidden !important;
 }
 
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
 
 
 .App-logo {
@@ -43,4 +47,12 @@
 .footer {
   text-align: center;
   padding-left: 12%;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    left: 10% !important;
+    position: relative !important;
+    padding-left: 10% !important;
+  }
 }
