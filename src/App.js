@@ -23,7 +23,11 @@ function App() {
         <Experience/>
         {/* <Connect/> */}
         <MobileConnect/>
-        <NavbarSectionM/>
+
+<section className="mobile-bar">
+<NavbarSectionM/>
+
+</section>
 
 
       </header>
