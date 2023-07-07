@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function Career() {
   return (
-    <Card sx={{ maxWidth: 345, minWidth: 440, }}>
+    <Card sx={{ maxWidth: 230, minWidth: 440, }}>
     <CardActionArea>
       {/* <CardMedia
         component="img"
