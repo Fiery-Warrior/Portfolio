@@ -8,26 +8,28 @@
   transition: background-color 0.3s ease;
 }
 
-@media (max-width: 430px) {
-.icon-link {
-  margin: 0 -1px !important;
+@media (max-width: 440px) {
+  .icon-link {
+    margin: 0 -1px !important;
 
-}
+  }
 
-.black-rectangle{
-  width: 30% !important;
-}
+  .black-rectangle{
+    width: 30% !important;
+    display: none !important;
+  }
 
-.name {
-  font-size: 85% !important;
-  margin-top: 20px;
-}
+  .name {
+    font-size: 85% !important;
+    margin-top: 20px;
+  }
 
-.chair {
-  width: 65% !important;
-  height: 15% !important;
-  margin-top: 25% !important;
-}
+  .chair {
+    width: 65% !important;
+    height: 15% !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+  }
 }
 
 .icon-link:hover {

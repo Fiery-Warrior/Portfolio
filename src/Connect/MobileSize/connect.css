@@ -27,6 +27,8 @@
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 120px;
+  margin-left: -50%;
+
 }
 
 /* .contactme-mobile {
@@ -51,6 +53,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   left: 30%;
   position: relative;
+  margin-left: -50%;
   }
 
 @media (min-width: 768px) {

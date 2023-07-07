@@ -1,0 +1,42 @@
+.icon-link-m {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 440px) {
+  .icon-link-m {
+    margin: 0 -1px !important;
+
+  }
+
+  .black-rectangle-m{
+    width: 30% !important;
+    /* display: none !important; */
+  }
+
+  .name-m {
+    font-size: 22px !important;
+    margin-top: 20px;
+  }
+
+  .chair-m {
+    width: 65% !important;
+    height: 15% !important;
+    margin-top: 25% !important;
+  }
+}
+
+.icon-link-m:hover {
+  background-color: #149ddd;
+}
+
+.nav-icons-m{
+  display: none !important;
+}
+
+
