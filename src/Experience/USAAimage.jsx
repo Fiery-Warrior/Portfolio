@@ -20,7 +20,7 @@ export default function MediaControlCard() {
           <Typography component="div" variant="h5" className="title-usaa">
             USAA Intern 
           </Typography>
-          <Typography variant="subtitle1" color="text.secondary" component="div" sx={{ fontSize: '13px', '@media (max-width: 450px)': { fontSize: '10px' } }}>
+          <Typography variant="subtitle1" color="text.secondary" component="div" sx={{ fontSize: '13px', '@media (max-width: 450px)': { fontSize: '7px' } }}>
           ‣ Summer 2022 worked as Full Stack Engineer
           <br/>
           ‣ Summer 2023 working as an AWS Cloud Developer
