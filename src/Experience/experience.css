@@ -96,7 +96,7 @@
   } */
 
   .languages {
-    top: 800px !important;
+    top: 938px !important;
   }
 }
 @media (max-width: 376px) {
@@ -178,7 +178,7 @@
     .languages {
       left: -120px;
       /* top: 800px; */
-      top: 950px;
+      top: 938px;
       font-size: 8px;
       border: 1px solid black;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -219,7 +219,8 @@
   } */
     .languages {
       left: -120px;
-      top: 800px;
+      /* top: 800px; */
+      top: 938px;
       /* font-size: 12px; */
       border: 1px solid black;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);

@@ -33,9 +33,11 @@ const Experience = () => {
     alignItems: "center",
     justifyContent: "center",
     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-    height: "120vh",
+    height: "130vh",
     paddingLeft: "30%",
   };
+
+
 
   const careerStyle = {
     marginBottom: "10px", // Add margin-bottom to create space
