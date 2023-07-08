@@ -6,7 +6,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function Langs() {
   return (
-    <Card sx={{ maxWidth: 345, minWidth: 936, '@media (max-width: 1087px)': { minWidth: 902 }, '@media (max-width: 950px)': { minWidth: 877 }, '@media (max-width: 550px)': { minWidth: 320 } }}>
+    <Card sx={{ maxWidth: 345, minWidth: 936, '@media (max-width: 1087px)': { minWidth: 902 }, '@media (max-width: 950px)': { minWidth: 877 }, '@media (max-width: 550px)': { minWidth: 350 }, '@media (max-width: 418px)': { minWidth: 320, maxWidth:220 } }}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', '@media (max-width: 550px)': { fontSize: '13px', gap: '5px' } }}>
