@@ -140,12 +140,13 @@
   } */
 
   .mor {
-    top: 585px;
+    top: 560px;
     left: -418px;
   }
 
   .languages{
     left: -418px;
+    top: 818px !important;
   }
 
 }
@@ -165,7 +166,7 @@
   }
 
   .mor {
-    /* top: 530px !important; */
+    top: 575px !important;
     left: -220px;
   }
 
@@ -176,7 +177,7 @@
   } */
     .languages {
       left: -220px;
-      top: 938px;
+      /* top: 938px; */
       font-size: 8px;
       border: 1px solid black;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -217,7 +218,7 @@
   } */
     .languages {
       left: -220px;
-      top: 938px;
+      /* top: 938px; */
       /* font-size: 12px; */
       border: 1px solid black;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
