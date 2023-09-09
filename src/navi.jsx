@@ -36,7 +36,7 @@ const NavbarSection = () => {
       >
           <a href="https://www.linkedin.com/in/keagan-bogart-786951209" target="_blank">
           <Image
-          src="/chair2.jpg"
+          src="/chair2.avif"
           alt="Profile Image"
           style={{
             width: "100%",

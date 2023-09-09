@@ -19,7 +19,7 @@ const Landing = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundImage: "url('/me8.jpg')",
+        backgroundImage: "url('/me8.avif')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

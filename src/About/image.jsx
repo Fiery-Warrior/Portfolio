@@ -25,7 +25,7 @@ export default function ImgMediaCard() {
         component="img"
         alt="Beach Walk"
         height="400"
-        image="\me.jpg"
+        image="\me.avif"
         sx={{
           "@media (max-width: 768px)": {
             height: 300,
