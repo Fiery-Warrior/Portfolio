@@ -30,7 +30,7 @@ export default function MediaControlCard() {
       <CardMedia
         component="img"
         sx={{ width: 151, '@media (max-width: 450px)': { width: 160 } }}
-        image="\group_usaa.jpg"
+        image="\group_usaa.avif"
         alt="Me at USAA"
       />
     </Card>
