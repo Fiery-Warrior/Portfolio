@@ -12,10 +12,10 @@ import "./navi.css";
 const styles = {
   link: {
     color: "#ccc",
-    margin: "5px 0",
+    margin: "10px 0",
     transition: "all 0.3s ease",
     textDecoration: "none", // Remove underline
-    fontSize: "85%",
+    fontSize: "105%",
   },
 hover: {
   transform: "scale(1.1)", // Make the link "pop up"
