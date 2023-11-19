@@ -8,6 +8,8 @@ import HamburgerMenu from './Ham/Hambar'
 import MobileConnect from './Connect/MobileSize/MobileConnect'
 import NavbarSection from './navi';
 import NavbarSectionM from './Ham/NaviM/navim';
+import Education from './Education/Education';
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,8 @@ function App() {
          
         <Landing/>
         <About/>
+        <Education/>
+
         <Experience/>
         {/* <Connect/> */}
         <MobileConnect/>
