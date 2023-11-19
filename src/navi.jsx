@@ -6,6 +6,7 @@ import { AiFillHome } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { IoIosPaper } from "react-icons/io";
 import { GiTeacher, GiRotaryPhone } from "react-icons/gi";
+import SchoolIcon from '@mui/icons-material/School';
 import "./navi.css";
 
 const styles = {
@@ -183,6 +184,24 @@ return (
         <BsPersonFill /> About
       </a>
 
+
+      <a
+        href="https://drive.google.com/file/d/1_dPJU4Snvlp7gi9mNe0kWtDGeRKrnCmr/view?usp=drive_link"
+        target="_blank"
+        style={{
+          ...styles.link,
+          ...(hoveredLink === "education" && styles.hover),
+          ...(hoveredLink && hoveredLink !== "education" && styles.blur),
+        }}
+        className="section-link"
+        onMouseEnter={() => handleLinkHover("education")}
+        onMouseLeave={() => handleLinkHover(null)}
+      >
+        <SchoolIcon /> Education
+      </a>
+
+
+
       <a
         href="#experience"
         style={{
@@ -212,7 +231,7 @@ return (
         <IoIosPaper /> Resume
       </a>
 
-      <a
+      {/* <a
         href="mailto:keagan.j.bogart@gmail.com"
         style={{
           ...styles.link,
@@ -224,7 +243,7 @@ return (
         onMouseLeave={() => handleLinkHover(null)}
       >
         <GiRotaryPhone /> Contact
-      </a>
+      </a> */}
       </div>
       </div>
 
