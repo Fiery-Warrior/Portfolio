@@ -117,7 +117,7 @@ return (
             onMouseEnter={() => handleLinkHover("linkedin")}
             onMouseLeave={() => handleLinkHover(null)}
           >
-            <FaLinkedin size={30} />
+            <FaLinkedin size={40} />
           </a>
           <a
             href="https://github.com/Fiery-Warrior"
@@ -132,7 +132,7 @@ return (
             onMouseEnter={() => handleLinkHover("github")}
             onMouseLeave={() => handleLinkHover(null)}
           >
-            <FaGithubSquare size={30} />
+            <FaGithubSquare size={40} />
           </a>
           <a
             href="mailto:keagan.j.bogart@gmail.com"
@@ -145,7 +145,7 @@ return (
             onMouseEnter={() => handleLinkHover("mail")}
             onMouseLeave={() => handleLinkHover(null)}
           >
-            <RiMailFill size={30} />
+            <RiMailFill size={40} />
           </a>
         </div>
 
