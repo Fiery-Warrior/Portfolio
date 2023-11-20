@@ -1,7 +1,7 @@
-.card-b {
+.card-a {
   /* position: absolute; */
   top: 50%;
-  left: 25%; /* Start from where the black rectangle ends */
+  left: 25%;
   width: 500px; /* Adjust as needed */
   height: 300px; /* Adjust as needed */
   background-color: #f2f2f2;
@@ -15,22 +15,22 @@
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   padding: 15px;
   /* position: fixed; */
-  left: 20%;
+  left: 25%;
 }
   
-  .card-b svg {
+  .card-a svg {
     width: 48px;
     fill: #333;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card-b:hover {
+  .card-a:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   /* box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); */
   }
   
-  .card__content {
+  .a-content {
     position: absolute;
     top: 0;
     left: 0;
@@ -44,22 +44,22 @@
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card-b:hover .card__content {
+  .card-a:hover .a-content {
     transform: rotateX(0deg);
   }
   
-  .card__title {
+  .a-title {
     margin: 0;
     font-size: 24px;
     color: #333;
     font-weight: 700;
   }
   
-  .card-b:hover svg {
+  .a-card-a:hover svg {
     scale: 0;
   }
   
-  .card__description {
+  .a-card__description {
     margin: 10px 0 0;
     font-size: 14px;
     color: #777;
@@ -72,14 +72,13 @@
   /* front of card */
 
   
-  .front__title {
+  .a-front {
     margin: 0;
-    font-size: 28px;
-    font-weight: 450;
+    font-size: 24px;
     color: #333;
   }
 
-  .card-b {
+  .card-a {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -88,38 +87,26 @@
   
 
   
-  .school {
+  .a-school {
     font-size: 0.5em; /* Adjust as needed */
     margin-bottom: 0.5em; /* Adjust as needed */
   }
   
-  .front_description {
+  .a-desc {
     font-size: 0.8em; /* Adjust as needed */
   }
 
-  .card-b,
-.front__title,
-.school,
-.front_description,
-.card__content,
-.card__title,
-.card__description {
+  .card-a,
+.a-front,
+.a-school,
+.a-Awards,
+.a-content,
+.a-title,
+.a-card_description {
     color: black;
 }
 
 
-.bachelors-card-position {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 25%;
-  right: 150px;
-}
-
-
-
-
-
-.b-card-content {
-  margin-bottom: 60px;
+.a-card-content {
+  margin-bottom: 130px;
 }

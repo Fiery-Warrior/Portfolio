@@ -186,8 +186,7 @@ return (
 
 
       <a
-        href="https://drive.google.com/file/d/1_dPJU4Snvlp7gi9mNe0kWtDGeRKrnCmr/view?usp=drive_link"
-        target="_blank"
+        href="#education"
         style={{
           ...styles.link,
           ...(hoveredLink === "education" && styles.hover),

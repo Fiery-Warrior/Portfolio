@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./education.css";
 import Bachelors from './Bachelors';
+import Awards from './Awards';
+
+
+
 const Education = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -33,27 +37,27 @@ const Education = () => {
     paddingLeft: "30%",
   };
 
-
-
   const bachelorStyle = {
     marginBottom: "10px", 
   };
 
-
-
-
   return (
     <section id="education" style={bachelorsectionStyle}>
       <div className="container">
-      <div className="header-container" >
-          <div className="header-b">{headerText}</div>
+        <div className="header-container-education" >
+          <div className="header-ba">{headerText}</div>
         </div>
-          <section className="careers">
-            <div style={bachelorStyle}>
-              <Bachelors />
-            </div>
-          </section>
-        </div>
+        <section className="bachelors-card-position">
+          <div style={bachelorStyle}>
+            <Bachelors />
+          </div>
+        </section>
+        <section className="awards-card-position">
+          <div style={bachelorStyle}>
+            <Awards />
+          </div> 
+        </section>
+      </div>
     </section>
   );
 };

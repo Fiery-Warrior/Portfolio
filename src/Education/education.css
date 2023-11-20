@@ -1,30 +1,26 @@
-.header-container{
-    background-color: #5c9aa9;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    padding: 50px;
-    top: 110px;
-    left: -527px;
-    font-size: 55px;
-}
 
-
-.header-b {
+/**TODO make responsive and sticky 'Education header'**/
+.header-ba {
   position: absolute;
-  /* top: 60px; */
-  top: 110px;
-  left: -527px;
+  top: 0px;
+  right: 50% !important;
   font-size: 55px;
   font-weight: bold;
-  background-color: #a95c5c;
+
+  background-color: #5c9aa9;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-  padding: 40px;
+  padding: 50px;
+  padding-right: 150vh;
+  right: -433px !important; /*How close it is to my black navbar*/
 }
 
+.bachelors-card-position{
+  margin-right: 45%;
+}
 
-.tech-list {
-  margin-top: -44px;
-  text-align: center;
-  margin-right: 204px;
+.awards-card-position{
+  margin-left: 85%;
+  margin-bottom: 25%; /**pushes up**/
 }
 
  h1 {
@@ -58,7 +54,7 @@
   padding-bottom: 5%;
 }
 
-.careers {
+.degrees {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -80,11 +76,6 @@
   top: 480px;
   left: -527px;
 }
-
-
-
-
-
 
 
 @media (max-width: 391px) {
