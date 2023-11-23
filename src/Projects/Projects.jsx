@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./ed.css";
-import Bachelors from "./Bachelors";
-import Awards from "./Awards";
+import "./projects.css";
+// import Bachelors from "./Bachelors";
+// import Awards from "./Awards";
+import Langs from "./Langs";
 
 const Ed = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -18,14 +19,14 @@ const Ed = () => {
     };
   }, []);
 
-  let headerText = "Education";
+  let headerText = "Project Experience";
   if (screenWidth < 499) {
-    headerText = "Education";
+    headerText = "Projects";
   }
 
   const sectionStyle = {
     color: "#000000",
-    backgroundColor: "rgb(216 219 223)",
+    backgroundColor: "#e4e7eb",
     width: "170vh",
     display: "flex",
     alignItems: "center",
@@ -43,21 +44,23 @@ const Ed = () => {
   };
 
   return (
-    <section id="education" style={sectionStyle} className="education-section">
+    <section id="projects" style={sectionStyle} className="education-section">
       <div className="ed-container">
         <div className="ed-header">{headerText}</div>
         <div className="content">
-          <section className="ed-awards">
+          {/* <section className="ed-awards">
             <div style={awardStyle}>
             </div>
             <Awards />
-          </section>
-          <div className="ed-bachelors">
-            <Bachelors />
-          </div>
-          {/* <section className="languages">
-            <Langs />
           </section> */}
+
+          {/* <div className="ed-bachelors">
+            <Bachelors />
+          </div> */}
+
+          <section className="languages">
+            <Langs />
+          </section>
         </div>
       </div>
     </section>

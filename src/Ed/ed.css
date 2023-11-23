@@ -1,15 +1,3 @@
-/* .ed-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-
-  position: relative;
-} */
-
-
 .ed-header {
   position: absolute;
   /* top: 60px; */
@@ -99,9 +87,14 @@
   }
 }
 @media (max-width: 376px) {
-  .ed-container {
+  .ed-container { 
     height: 170vh !important;
   }
+
+  .education-section {
+    height: 170vh !important;
+  }
+
 }
 
 .ed-container {
@@ -154,18 +147,20 @@
 
 @media (max-width: 440px) {
   .ed-header {
-    top: 125px;
+    /* top: 125px; */
+    top: 20px;
     left: -196px;
     font-size: 55px;}
 
   .ed-awards {
-    /* top: 408px; */
-    top: 235px;
+    /* top: 235px; */
+    top: 130px;
     left: -220px;
   }
 
   .ed-bachelors {
-    top: 575px !important;
+    /* top: 575px !important; */
+    top: 605px !important;
     left: -220px;
   }
 

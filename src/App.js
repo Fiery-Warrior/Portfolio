@@ -53,7 +53,8 @@ import MobileConnect from './Connect/MobileSize/MobileConnect'
 import NavbarSection from './navi';
 import NavbarSectionM from './Ham/NaviM/navim';
 import Ed from './Ed/Ed.jsx'
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
+import Projects from './Projects/Projects';
 
 function App() {
 
@@ -70,6 +71,9 @@ function App() {
         <Landing/>
         <About/>
         <Ed/>
+
+        <Projects/>
+
 
         <Experience/>
         {/* <Connect/> */}
