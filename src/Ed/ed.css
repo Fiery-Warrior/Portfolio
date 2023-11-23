@@ -1,27 +1,29 @@
+/* .ed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 
-/**TODO make responsive and sticky 'Education header'**/
-.header-ba {
+  position: relative;
+} */
+
+
+.ed-header {
   position: absolute;
-  top: 0px;
-  right: 50% !important;
+  /* top: 60px; */
+  top: 60px;
+  left: -527px;
   font-size: 55px;
   font-weight: bold;
-
-  /* background-color: #5c9aa9; */
-  background-color: #bfc1c4;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-  padding: 50px;
-  padding-right: 150vh;
-  right: -488.5px !important; /*How close it is to my black navbar*/
 }
 
-.bachelors-card-position{
-  margin-right: 45%;
-}
 
-.awards-card-position{
-  margin-left: 79%;
-  margin-bottom: 25%; /**pushes up**/
+.tech-list {
+  margin-top: -44px;
+  text-align: center;
+  margin-right: 204px;
 }
 
  h1 {
@@ -55,20 +57,19 @@
   padding-bottom: 5%;
 }
 
-.degrees {
+.ed-awards {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 160px;
-  /* top: 120px; */
-  left: 19px;
+  top: 200px;
+  left: 35px;
 }
 
-.mor {
+.ed-bachelors {
   position: absolute;
   /* top: 150px; */
   top: 210px;
-  left: -527px;
+  left: -525px;
 }
 
 .languages{
@@ -79,12 +80,17 @@
 }
 
 
+
+
+
+
+
 @media (max-width: 391px) {
-  .container-b {
+  .ed-container {
     height: 112vh !important;
   }
 
-  /* .mor {
+  /* .ed-bachelors {
     top: 520px !important;
   } */
 
@@ -93,12 +99,12 @@
   }
 }
 @media (max-width: 376px) {
-  .container-b {
+  .ed-container {
     height: 170vh !important;
   }
 }
 
-.container-b {
+.ed-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,12 +115,12 @@
 }
 
 @media (max-width: 1087px) {
-  .header-b {
+  .ed-header {
     left: -443px;
     font-size: 45px;
   }
 
-  .mor {
+  .ed-bachelors {
     top: 150px;
     left: -443px;
   }
@@ -127,12 +133,12 @@
 
 
 @media (max-width: 950px) {
-  /* .header {
+  /* .ed-header {
     left: -418px;
     font-size: 47px;
   } */
 
-  .mor {
+  .ed-bachelors {
     top: 560px;
     left: -418px;
   }
@@ -147,18 +153,18 @@
 
 
 @media (max-width: 440px) {
-  .header-b {
+  .ed-header {
     top: 125px;
     left: -196px;
     font-size: 55px;}
 
-  .careers {
+  .ed-awards {
     /* top: 408px; */
     top: 235px;
     left: -220px;
   }
 
-  .mor {
+  .ed-bachelors {
     top: 575px !important;
     left: -220px;
   }
@@ -189,18 +195,18 @@
 }
 
 @media (max-width: 401px) {
-  /* .header {
+  /* .ed-header {
     top: 91px;
     left: -110px;
     font-size: 35px;
   } */
 
-  /* .careers {
+  /* .ed-awards {
     top: 190px;
     left: -180px;
   } */
 
-  /* .mor {
+  /* .ed-bachelors {
     left: -180px;
   } */
 

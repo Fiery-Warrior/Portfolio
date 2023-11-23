@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './awards.css';
+import Dbu from "./Dbu.tsx";
 
 const Awards = () => {
 
@@ -16,8 +17,7 @@ const Awards = () => {
 
 
           <div className="a-content">
-              <p className="a-title">Relevent Courses</p>
-              <p className="a-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <Dbu/>
           </div>
         </section>
 
