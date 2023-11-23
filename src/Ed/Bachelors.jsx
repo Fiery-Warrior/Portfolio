@@ -22,14 +22,21 @@ export default function Bachelors() {
                       <p className="front_description" style={{ lineHeight: "1.5", fontSize: '20px' }}>
                         Graduated with a Bachelor's degree in Cyber Security, while working as a Teaching Assistant, Tutor, Student Athlete, and serving as an English Tutor to international students.
                       </p>
-                      <Typography gutterBottom component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '5px', '@media (max-width: 550px)': { fontSize: '18px', gap: '4px' } }}>
-                        <p>#TA</p>
-                        <p>#Tutor</p>
-                        <p>#Student-Athlete</p>
-                        <p>#Cyber-Security</p>
-                        <p>#Bachelor's</p>
-                        <p>#Serving</p>
-                      </Typography>
+                      <br/>
+                      <Typography gutterBottom component="div" sx={{ 
+                      display: 'grid', 
+                      gridTemplateColumns: 'repeat(3, 1fr)', 
+                      gap: '2px', 
+                      '@media (max-width: 550px)': { fontSize: '18px', gap: '2px' },
+                      '& > p': { margin: '0', padding: '0' }
+                    }}>
+                      <p>#TA</p>
+                      <p>#Tutor</p>
+                      <p>#Student-Athlete</p>
+                      <p>#Cyber-Security</p>
+                      <p>#Bachelor's</p>
+                      <p>#Serving</p>
+                    </Typography>
                       <section className="card__content">
                 <div className="flip-card">
                   <div className="flip-card-inner">
@@ -38,41 +45,18 @@ export default function Bachelors() {
                     </div>
                     <div className="flip-card-back">
                       <p className="card__title">Relevant Courses</p>
-                      {/* <p className="card__description" style={{ lineHeight: "1.5" }}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-
-                      </p> */}
 
                       <Typography gutterBottom variant="h6" component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(1fr)', gap: '10px', '@media (max-width: 550px)': { fontSize: '12px', gap: '5px' } }}>
-                          <Tooltip title="More information about Information Assurance">
-                              <span>‣ Information Assurance</span>
-                          </Tooltip>
-                          <Tooltip title="More information about Ethical Hacking">
-                              <span>‣ Ethical Hacking</span>
-                          </Tooltip>
-                          <Tooltip title="More information about Software Security">
-                              <span>‣ Software Security</span>
-                          </Tooltip>
-                          <Tooltip title="More information about Network Security">
-                              <span>‣ Network Security</span>
-                          </Tooltip>
-                          <Tooltip title="More information about Digital Forensics">
-                              <span>‣ Digital Forensics</span>
-                          </Tooltip>
-                          <Tooltip title="More information about Database">
-                              <span>‣ Database</span>
-                          </Tooltip>
-                          <Tooltip title="More information about Java">
-                              <span>‣ Java </span>
-                          </Tooltip>
-                          <Tooltip title="More information about Software Engineering">
-                              <span>‣ Software Engineering </span>
-                          </Tooltip>
-                          <Tooltip title="More information about Python">
-                              <span>‣ Python </span>
-                          </Tooltip>
+                          <span>‣ Information Assurance</span>
+                          <span>‣ Ethical Hacking</span>
+                          <span>‣ Software Security</span>
+                          <span>‣ Network Security</span>
+                          <span>‣ Digital Forensics</span>
+                          <span>‣ Database</span>
+                          <span>‣ Java </span>
+                          <span>‣ Software Engineering </span>
+                          <span>‣ Python </span>
                       </Typography>
-
                     </div>
                   </div>
                 </div>

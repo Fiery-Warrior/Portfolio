@@ -14,9 +14,9 @@ export default function ImgMediaCard() {
 
   return (
     <div className={`card ${isFlipped ? "flipped" : ""}`}>
-      <section className="image-cards">
-        <div className="card-inner">
-          <div className="card-front" onClick={handleCardFlip}>
+      <section className="image-cards-i">
+        <div className="card-inner-i">
+          <div className="card-front-i" onClick={handleCardFlip}>
             <Card
               sx={{
                 maxWidth: 345,
@@ -47,7 +47,7 @@ export default function ImgMediaCard() {
             </Card>
           </div>
 
-          <div className="card-back" onClick={handleCardFlip}>
+          <div className="card-back-i" onClick={handleCardFlip}>
             <Card
               sx={{
                 maxWidth: 345,

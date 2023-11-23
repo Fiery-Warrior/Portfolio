@@ -2,9 +2,11 @@
   width: 300px;
   height: 200px;
   perspective: 1000px;
+
+  
 }
 
-.card-inner {
+.card-inner-i {
   width: 100%;
   height: 100%;
   position: relative;
@@ -12,11 +14,11 @@
   transition: transform 0.999s;
 }
 
-.card:hover .card-inner {
+.card:hover .card-inner-i {
   transform: rotateY(180deg);
 }
 
-.card-front,
+.card-front-i,
 .card-back {
   position: absolute;
   width: 100%;
@@ -24,12 +26,12 @@
   backface-visibility: hidden;
 }
 
-.card-front {
-  background-color: #6A2C70;
+.card-front-i {
+  /* background-color: #6A2C70; */
   color: #fff;
   display: flex;
   align-items: center;
-  border: 10px solid #6A2C70;
+  /* border: 10px solid #6A2C70; */
   border-radius: 10px;
   justify-content: center;
   font-size: 24px;
