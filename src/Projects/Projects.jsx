@@ -3,6 +3,9 @@ import "./projects.css";
 // import Bachelors from "./Bachelors";
 // import Awards from "./Awards";
 import Langs from "./Langs";
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+
 
 const Ed = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -48,19 +51,14 @@ const Ed = () => {
       <div className="ed-container">
         <div className="ed-header">{headerText}</div>
         <div className="content">
-          {/* <section className="ed-awards">
-            <div style={awardStyle}>
+
+          <section className="projects">
+            <div className="project-overlay">
+              <Langs/>
             </div>
-            <Awards />
-          </section> */}
 
-          {/* <div className="ed-bachelors">
-            <Bachelors />
-          </div> */}
-
-          <section className="languages">
-            <Langs />
           </section>
+
         </div>
       </div>
     </section>

@@ -5,6 +5,19 @@
   left: -527px;
   font-size: 55px;
   font-weight: bold;
+
+  /*Make the blue line under Project experience appear*/
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    width: 180px;
+    height: 5px;
+    border-radius: 1rem;
+}
+
 }
 
 
@@ -46,7 +59,7 @@
 }
 
 
-.languages{
+.projects{
   position: absolute;
   /* top: 420px; */
   top: 230px;
@@ -68,7 +81,7 @@
     top: 520px !important;
   } */
 
-  .languages {
+  .projects {
     top: 818px !important;
   }
 }
@@ -104,7 +117,7 @@
     left: -443px;
   }
 
-  .languages{
+  .projects{
     left: -443px;
   }
 
@@ -122,7 +135,7 @@
     left: -418px;
   }
 
-  .languages{
+  .projects{
     left: -418px;
     top: 818px !important;
   }
@@ -150,12 +163,12 @@
     left: -220px;
   }
 
-  /* .languages{
+  /* .projects{
     left: -195px;
     top: 780px;
     font-size: 12px;
   } */
-    .languages {
+    .projects {
       left: -220px;
       /* top: 938px; */
       font-size: 8px;
@@ -191,12 +204,12 @@
     left: -180px;
   } */
 
-  /* .languages{
+  /* .projects{
     left: -195px;
     top: 780px;
     font-size: 12px;
   } */
-    .languages {
+    .projects {
       left: -220px;
       /* top: 938px; */
       /* font-size: 12px; */
@@ -205,4 +218,45 @@
     }
   
 
+}
+
+
+
+
+
+.project-overlay {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.project-overlay:hover::after {
+  content: 'Hello, this is Keagan\AThis application was built to help others';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1;
+  white-space: pre; 
+}
+
+/* .project-overlay:hover::before {
+  content: url('./github-mark-white.svg');
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+} */
+
+.project-overlay:hover::before {
+  content: 'Description';
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
