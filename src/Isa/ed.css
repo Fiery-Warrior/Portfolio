@@ -1,23 +1,9 @@
 .ed-header {
   position: absolute;
-  /* top: 60px; */
-  top: 60px;
-  left: -527px;
+  top: 850px;
+  left: -700px;
   font-size: 55px;
   font-weight: bold;
-
-  /*Make the blue line under Project experience appear*/
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -15px;
-    background: linear-gradient(to right, #00b4db, #0083b0);
-    width: 180px;
-    height: 5px;
-    border-radius: 1rem;
-}
-
 }
 
 
@@ -58,12 +44,26 @@
   padding-bottom: 5%;
 }
 
+.ed-awards {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 200px;
+  left: 35px;
+}
 
-.projects{
+.ed-bachelors {
+  position: absolute;
+  /* top: 150px; */
+  top: 1068px!important; 
+  left: -705px;
+}
+
+.languages{
   position: absolute;
   /* top: 420px; */
-  top: 230px;
-  left: -527px;
+  top: 980px;
+  left: -100px;
 }
 
 
@@ -81,7 +81,7 @@
     top: 520px !important;
   } */
 
-  .projects {
+  .languages {
     top: 818px !important;
   }
 }
@@ -117,7 +117,7 @@
     left: -443px;
   }
 
-  .projects{
+  .languages{
     left: -443px;
   }
 
@@ -135,7 +135,7 @@
     left: -418px;
   }
 
-  .projects{
+  .languages{
     left: -418px;
     top: 818px !important;
   }
@@ -159,16 +159,16 @@
 
   .ed-bachelors {
     /* top: 575px !important; */
-    top: 605px !important;
-    left: -220px;
+    top: 1068px!important; 
+    left: -705px;
   }
 
-  /* .projects{
+  /* .languages{
     left: -195px;
     top: 780px;
     font-size: 12px;
   } */
-    .projects {
+    .languages {
       left: -220px;
       /* top: 938px; */
       font-size: 8px;
@@ -204,12 +204,12 @@
     left: -180px;
   } */
 
-  /* .projects{
+  /* .languages{
     left: -195px;
     top: 780px;
     font-size: 12px;
   } */
-    .projects {
+    .languages {
       left: -220px;
       /* top: 938px; */
       /* font-size: 12px; */
@@ -224,39 +224,8 @@
 
 
 
-.project-overlay {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.project-overlay:hover::after {
-  content: 'Hello, this is Keagan\AThis application was built to help others';
+.row-column-position {
   position: absolute;
-  top: 0;
-  left: 0;
-  background: transparent;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  z-index: 1;
-  white-space: pre; 
-}
-
-/* .project-overlay:hover::before {
-  content: url('./github-mark-white.svg');
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-} */
-
-.project-overlay:hover::before {
-  content: 'Description';
-  color: #fff;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
+  top: 1035px;
+  left: -415px;
 }
