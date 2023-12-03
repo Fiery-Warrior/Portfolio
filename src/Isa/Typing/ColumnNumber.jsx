@@ -1,48 +1,7 @@
-// import React, { useEffect, useState, useRef } from 'react';
-// import './type.css';
-
-// function TypeDisplay() {
-//   const [isVisible, setIsVisible] = useState(false);
-//   const ref = useRef();
-
-//   useEffect(() => {
-//     const observer = new IntersectionObserver(
-//       ([entry]) => {
-//         setIsVisible(entry.isIntersecting);
-//       },
-//       {
-//         root: null,
-//         rootMargin: '0px',
-//         threshold: 0.1
-//       }
-//     );
-
-//     if (ref.current) {
-//       observer.observe(ref.current);
-//     }
-
-//     return () => {
-//       if (ref.current) {
-//         observer.unobserve(ref.current);
-//       }
-//     };
-//   }, []);
-
-//   return (
-//     <h5 ref={ref} className={isVisible ? 'type-animation' : ''}>
-//       1 0 1 1
-//     </h5>
-//   );
-// }
-
-// export default TypeDisplay;
-
-
-
 import React, { useEffect, useState, useRef } from 'react';
 import './type.css';
 
-function RowColumnPosition() {
+function ColumnNumber() {
   const [isVisible, setIsVisible] = useState(false);
   const [isTypingDone, setIsTypingDone] = useState(false);
   const ref = useRef();
@@ -78,9 +37,9 @@ function RowColumnPosition() {
 
   return (
     <h5 ref={ref} className={`${isVisible ? 'type-animation' : ''} ${isTypingDone ? 'is-typing-done' : ''}`} onAnimationEnd={onAnimationEnd} style={{ '--text-width': `${textWidth}px` }}>
-      1 0 1 1
+      7
     </h5>
   );
 }
 
-export default RowColumnPosition;
+export default ColumnNumber;

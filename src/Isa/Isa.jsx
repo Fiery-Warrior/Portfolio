@@ -5,7 +5,9 @@ import Typed from "react-typed";
 // import CollegeImages from "./Images";
 // import Code from "./Code";
 import Typography from '@mui/material/Typography';
-import TypeDisplay from "./Typing/Type.jsx";
+import RowColumnPosition from "./Typing/Type.jsx";
+import RowNumber from "./Typing/RowNumber.jsx"
+import ColumnNumber from "./Typing/ColumnNumber.jsx"
 
 const Isa = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -68,19 +70,31 @@ const Isa = () => {
             {/* <Awards /> */}
           </section>
           <div className="ed-bachelors">
-            <Typography gutterBottom variant="h5" component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', gap: '10px', '@media (max-width: 550px)': { fontSize: '13px', gap: '5px' } }}>
+            <Typography gutterBottom variant="h5" component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', gap: '30px', '@media (max-width: 550px)': { fontSize: '13px', gap: '5px' } }}>
               <span>‣ Enter Number of Rows</span>
               <span>‣ Enter Number of Columns</span>
               <span>‣ Enter Row/Column data (0 or 1)</span>
+              <span>‣ View Calculated:
+                  <Typography gutterBottom variant="p" component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', padding: '15px',fontSize: '20px', gap: '10px', '@media (max-width: 550px)': { fontSize: '8px', gap: '3px' } }}>
+                    <span>‣ Max Matchings</span>
+                    <span>‣ Min Coverings</span>
+                    <span>‣ Updated ISA Matrix</span>
+                </Typography>
+              </span>
     
             </Typography>
+          </div>
 
+          <div className='row-number'>
+            <RowNumber/>
+          </div>
 
+          <div className='column-number'>
+            <ColumnNumber/>
           </div>
 
           <div className='row-column-position'>
-          <TypeDisplay />
-
+          <RowColumnPosition />
           </div>
 
 

@@ -1,9 +1,12 @@
-h5 {
+/* h5 {
   position: relative;
   padding-top: -15px;
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: nowrap;
+}
+
+.type-animation {
   animation: typewriter 4s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms infinite;
 }
@@ -18,7 +21,44 @@ h5 {
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: hsl(0, 0%, 80%);
+    border-right-color: hsl(33, 66%, 34%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+} */
+
+
+
+h5 {
+  position: relative;
+  padding-top: -15px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+}
+
+.type-animation {
+  animation: typewriter 1.2s steps(44) 1s 1 normal both, /*How fast the typing effect is outputed*/
+    blinkTextCursor 500ms infinite;
+}
+
+.is-typing-done {
+  animation: none;
+  border-right: none;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--text-width);
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgb(37, 37, 37);
   }
   to {
     border-right-color: transparent;

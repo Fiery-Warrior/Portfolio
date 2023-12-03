@@ -221,11 +221,26 @@
 }
 
 
+.row-number {
+  position: absolute;
+  top: 1032px;
+  left: -435px;
+  font-family: monospace;
+  font-size: 27px;
+}
 
+.column-number {
+  position: absolute;
+  top: 1097px;
+  left: -405px;
+  font-family: monospace;
+  font-size: 27px;
+}
 
 
 .row-column-position {
   position: absolute;
-  top: 1035px;
-  left: -415px;
+  top: 1202px;
+  left: -440px;
+  font-family: monospace;
 }
