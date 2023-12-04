@@ -67,7 +67,11 @@
 }
 
 
-
+.theorem-rule{
+  position: absolute;
+  /* top: 420px; */
+  left: 71%;
+}
 
 
 

@@ -148,7 +148,7 @@ const Isa = () => {
               placement="right" // Set the placement to right
               arrow // Enable arrow for the tooltip
             >
-        <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Number of Rows</span></span>
+        <span>‣ Enter <span style={{borderBottom: '3px solid #25a93aa1'}}>Number of Rows</span></span>
 
         {/* <span>
         ‣ Enter{" "}
@@ -178,7 +178,7 @@ const Isa = () => {
               placement="right" // Set the placement to right
               arrow // Enable arrow for the tooltip
             >
-        <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Number of Columns</span></span>
+        <span>‣ Enter <span style={{borderBottom: '3px solid #25a93aa1'}}>Number of Columns</span></span>
 
       </HtmlTooltip>
               {/* <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Number of Columns</span></span> */}
@@ -201,7 +201,7 @@ const Isa = () => {
               placement="right" // Set the placement to right
               arrow // Enable arrow for the tooltip
             >
-        <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Rows and Columns</span></span>
+        <span>‣ Enter <span style={{borderBottom: '3px solid #25a93aa1'}}>Rows and Columns</span></span>
       </HtmlTooltip>
               {/* <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Rows and Columns</span></span> */}
               <span>‣ View Calculated:
@@ -219,7 +219,9 @@ const Isa = () => {
                 <source src="/Speed_Matrix.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              <Theorem/>
+              <div className="theorem-rule">
+                <Theorem/>
+              </div>
             </div>
  
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/jZiZs8cZAKU?si=n-XcMhcay-rvQ-dK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
