@@ -240,7 +240,13 @@
 
 .row-column-position {
   position: absolute;
-  top: 1202px;
-  left: -440px;
+  top: 1190px;
+  left: -340px;
   font-family: monospace;
 }
+
+/* 
+.typed-cursor {
+  color: rgb(37, 37, 37); 
+  animation: typedjsBlink 0.7s infinite;
+} */

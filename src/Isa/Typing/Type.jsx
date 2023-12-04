@@ -1,8 +1,9 @@
 // import React, { useEffect, useState, useRef } from 'react';
 // import './type.css';
 
-// function TypeDisplay() {
+// function RowColumnPosition() {
 //   const [isVisible, setIsVisible] = useState(false);
+//   const [isTypingDone, setIsTypingDone] = useState(false);
 //   const ref = useRef();
 
 //   useEffect(() => {
@@ -28,15 +29,23 @@
 //     };
 //   }, []);
 
+//   const onAnimationEnd = () => {
+//     setIsTypingDone(true);
+//   };
+
+//   const textWidth = ref.current ? ref.current.offsetWidth : 0;
+
 //   return (
-//     <h5 ref={ref} className={isVisible ? 'type-animation' : ''}>
-//       1 0 1 1
+//     <h5 ref={ref} className={`${isVisible ? 'type-animation' : ''} ${isTypingDone ? 'is-typing-done' : ''}`} onAnimationEnd={onAnimationEnd} style={{ '--text-width': `${textWidth}px` }}>
+//       0 0 1 1 0
+//       0 1 1 0 0
+//       1 1 0 0 0
+//       0 1 1 0 0
 //     </h5>
 //   );
 // }
 
-// export default TypeDisplay;
-
+// export default RowColumnPosition;
 
 
 import React, { useEffect, useState, useRef } from 'react';
@@ -76,10 +85,23 @@ function RowColumnPosition() {
 
   const textWidth = ref.current ? ref.current.offsetWidth : 0;
 
+  const matrix = [
+    [0, 0, 1, 1, 0],
+    [0, 1, 1, 0, 0],
+    [1, 1, 0, 0, 0],
+    [0, 1, 1, 0, 0]
+  ];
+
   return (
-    <h5 ref={ref} className={`${isVisible ? 'type-animation' : ''} ${isTypingDone ? 'is-typing-done' : ''}`} onAnimationEnd={onAnimationEnd} style={{ '--text-width': `${textWidth}px` }}>
-      1 0 1 1
-    </h5>
+    <table ref={ref} className={`${isVisible ? 'type-animation' : ''} ${isTypingDone ? 'is-typing-done' : ''}`} onAnimationEnd={onAnimationEnd} style={{ '--text-width': `${textWidth}px` }}>
+      {matrix.map((row, i) => (
+        <tr key={i}>
+          {row.map((num, j) => (
+            <td key={j}>{num}</td>
+          ))}
+        </tr>
+      ))}
+    </table>
   );
 }
 
