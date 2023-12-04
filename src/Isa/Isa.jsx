@@ -246,7 +246,7 @@ const Isa = () => {
               onComplete={handleTypedComplete}
             />
           ) : (
-            <span style={{ color: "grey", borderBottom: "3px solid #149ddd",}}>Bipartite Matrix Calculator</span>
+            <span style={{ color: "grey", borderBottom: "3px solid #149ddd",}}>Bipartite Matrix Calculator:</span>
           )}</h1></div>
         <div className="content">
           <section className="ed-awards">
@@ -260,7 +260,7 @@ const Isa = () => {
               title={
                 <React.Fragment>
                   {/* <Typography color="inherit">Tooltip with HTML</Typography> */}
-                  <em>{"Type Number of Rows in the Matrix: 4 and press "}</em><b>{'Enter'}</b>
+                  <em>{"Type Number of Rows in the Matrix: "} <b>4</b> {" and press "}</em><kbd>Enter</kbd>
                   {/* <em>{"And here's"}</em> <b>{'some'}</b> <u>{'amazing content'}</u>.{' '}
                   {"It's very engaging. Right?"} */}
                 </React.Fragment>
@@ -285,6 +285,8 @@ const Isa = () => {
               </span>
     
             </Typography>
+
+
           </div>
 
           {/* <div className='row-number'>
