@@ -227,6 +227,13 @@ const Isa = () => {
     marginBottom: "10px", // Adds margin-bottom to create space
   };
 
+  const matrix = [
+    [0, 0, 1, 1, 0],
+    [0, 1, 1, 0, 0],
+    [1, 1, 0, 0, 0],
+    [0, 1, 1, 0, 0]
+  ];
+
   return (
     <section id="education" style={sectionStyle} className="education-section">
       <div className="ed-container">
@@ -259,23 +266,54 @@ const Isa = () => {
             <HtmlTooltip
               title={
                 <React.Fragment>
-                  {/* <Typography color="inherit">Tooltip with HTML</Typography> */}
-                  <em>{"Type Number of Rows in the Matrix: "} <b>4</b> {" and press "}</em><kbd>Enter</kbd>
-                  {/* <em>{"And here's"}</em> <b>{'some'}</b> <u>{'amazing content'}</u>.{' '}
-                  {"It's very engaging. Right?"} */}
+                  <em>{"Type Number of Rows in the Matrix: "}<b>4</b>{" and press "}</em><kbd>Enter</kbd>
                 </React.Fragment>
-                
               }
               placement="right" // Set the placement to right
               arrow // Enable arrow for the tooltip
             >
-        {/* <Button>HTML</Button> */}
         <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Number of Rows</span></span>
       </HtmlTooltip>
 
+
+
+
               {/* <span>‣ Enter Number of Columns</span> */}
-              <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Number of Columns</span></span>
-              <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Rows and Columns</span></span>
+        <HtmlTooltip
+              title={
+                <React.Fragment>
+                  <em>{"Type Number of Columns in the Matrix: "}<b>5</b>{" and press "}</em><kbd>Enter</kbd>
+                </React.Fragment>
+              }
+              placement="right" // Set the placement to right
+              arrow // Enable arrow for the tooltip
+            >
+        <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Number of Columns</span></span>
+
+      </HtmlTooltip>
+              {/* <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Number of Columns</span></span> */}
+
+              <HtmlTooltip
+              title={
+                <React.Fragment>
+                  <em>{"Type Each 0 or 1 for the Bipartite Matrix: "}
+                  <b><table>
+                    {matrix.map((row, i) => (
+                      <tr key={i}>
+                        {row.map((num, j) => (
+                          <td key={j}>{num}</td>
+                        ))}
+                      </tr>
+                    ))}
+                    </table></b>{" and press "}</em><kbd>Enter</kbd><em>{" after each row"}</em>
+                </React.Fragment>
+              }
+              placement="right" // Set the placement to right
+              arrow // Enable arrow for the tooltip
+            >
+        <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Rows and Columns</span></span>
+      </HtmlTooltip>
+              {/* <span>‣ Enter <span style={{borderBottom: '3px solid rgb(20, 157, 221)'}}>Rows and Columns</span></span> */}
               <span>‣ View Calculated:
                   <Typography gutterBottom variant="p" component="div" sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', padding: '15px',fontSize: '20px', gap: '10px', '@media (max-width: 550px)': { fontSize: '8px', gap: '3px' } }}>
                     <span>‣ Max Matchings</span>
