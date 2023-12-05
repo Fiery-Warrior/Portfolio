@@ -79,8 +79,7 @@ export default function Theorem() {
         <Box sx={{ ...style, width: 400 }}>
           <h2 id="parent-modal-title">Theorems and Rules</h2>
           <p id="parent-modal-description">
-- Theorem: In a bipartite graph 𝐺
-, the size of a maximum matching is the same as the size of a minimum vertex cover.
+          Konig's Theorem: if a graph is bipartite, then a Maximum Matching has the same number of elements as a Minimum Covering
           </p>
           <ChildModal />
         </Box>

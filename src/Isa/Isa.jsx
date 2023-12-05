@@ -216,7 +216,7 @@ const Isa = () => {
           <section className="languages">
             <div>
               <video width="620" height="440" controls>
-                <source src="/Speed_Matrix.mp4" type="video/mp4" />
+                <source src="/newCalc.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div className="theorem-rule">
